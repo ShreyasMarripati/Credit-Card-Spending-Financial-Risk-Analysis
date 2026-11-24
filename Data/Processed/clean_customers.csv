@@ -1,0 +1,2001 @@
+User_ID,Age,Age_Group,Gender,State,Yearly_Income,Income_Group,Total_Debt,FICO_Score,FICO_Band,Num_Credit_Cards
+0,53,46-55,Female,CA,59696,Lower-Middle,127613,787,Very Good,5
+1,53,46-55,Female,NY,77254,Upper-Middle,191349,701,Good,5
+2,81,66+,Female,CA,33483,Lower-Middle,196,698,Good,5
+3,63,56-65,Female,NY,249925,High,202328,722,Good,4
+4,43,36-45,Male,CA,109687,High,183855,675,Good,1
+5,42,36-45,Male,IA,41997,Lower-Middle,0,704,Good,3
+6,36,36-45,Female,KY,51500,Lower-Middle,102286,672,Good,3
+7,26,26-35,Male,OR,54623,Lower-Middle,114711,728,Good,1
+8,81,66+,Female,PA,42509,Lower-Middle,2895,755,Very Good,5
+9,34,26-35,Female,LA,38190,Lower-Middle,81262,810,Excellent,1
+10,27,26-35,Male,CA,56164,Lower-Middle,15224,761,Very Good,2
+11,29,26-35,Female,CO,45727,Lower-Middle,94016,629,Fair,1
+12,18,18-25,Female,RI,69149,Upper-Middle,89214,776,Very Good,1
+13,34,26-35,Male,MI,41442,Lower-Middle,78833,712,Good,3
+14,48,46-55,Female,TX,20513,Low,32509,599,Fair,1
+15,41,36-45,Female,OK,23123,Low,5079,723,Good,6
+16,54,46-55,Male,TX,36497,Lower-Middle,38333,719,Good,6
+17,76,66+,Female,AZ,27484,Low,16803,660,Fair,4
+18,22,18-25,Male,NC,53995,Lower-Middle,89056,683,Good,3
+19,66,66+,Male,AZ,35602,Lower-Middle,55369,661,Fair,5
+20,28,26-35,Male,GA,25122,Low,43205,819,Excellent,3
+21,18,18-25,Male,CA,216740,High,0,700,Good,2
+22,76,66+,Male,OH,41109,Lower-Middle,21486,698,Good,2
+23,70,66+,Male,AR,26858,Low,11245,712,Good,2
+24,45,36-45,Male,OR,34929,Lower-Middle,63849,714,Good,1
+25,36,36-45,Female,AZ,34317,Lower-Middle,61826,610,Fair,3
+26,40,36-45,Female,TX,31377,Lower-Middle,59615,722,Good,2
+27,37,36-45,Male,CA,43638,Lower-Middle,104052,627,Fair,1
+28,41,36-45,Male,TN,32531,Lower-Middle,38260,766,Very Good,2
+29,37,36-45,Female,TN,42120,Lower-Middle,72801,739,Good,4
+30,18,18-25,Male,OH,57281,Lower-Middle,89114,850,Excellent,1
+31,49,46-55,Male,FL,38390,Lower-Middle,87923,783,Very Good,4
+32,33,26-35,Female,NC,35670,Lower-Middle,58182,751,Very Good,2
+33,21,18-25,Female,CT,61746,Upper-Middle,154817,637,Fair,2
+34,47,46-55,Female,AL,43496,Lower-Middle,114563,765,Very Good,3
+35,41,36-45,Male,CA,51854,Lower-Middle,72162,737,Good,2
+36,51,46-55,Female,CA,34540,Lower-Middle,22641,793,Very Good,5
+37,46,46-55,Male,IL,41287,Lower-Middle,88151,662,Fair,1
+38,46,46-55,Male,CA,38054,Lower-Middle,63293,666,Fair,1
+39,59,56-65,Female,MA,80371,Upper-Middle,108499,822,Excellent,1
+40,91,66+,Female,KS,84694,Upper-Middle,2149,741,Very Good,7
+41,79,66+,Male,TX,37503,Lower-Middle,14272,706,Good,5
+42,57,56-65,Male,AZ,65357,Upper-Middle,21844,685,Good,4
+43,26,26-35,Female,FL,22066,Low,38967,842,Excellent,1
+44,42,36-45,Male,FL,44681,Lower-Middle,42011,770,Very Good,3
+45,26,26-35,Male,MO,51306,Lower-Middle,68198,675,Good,1
+46,18,18-25,Female,TX,25847,Low,46379,568,Poor,1
+47,60,56-65,Female,FL,46683,Lower-Middle,93126,788,Very Good,5
+48,61,56-65,Male,WI,31579,Lower-Middle,52419,771,Very Good,3
+49,47,46-55,Male,GA,28055,Low,12475,829,Excellent,3
+50,42,36-45,Female,MI,65403,Upper-Middle,80057,784,Very Good,4
+51,55,46-55,Female,TN,27572,Low,59404,797,Very Good,1
+52,48,46-55,Female,SC,38539,Lower-Middle,0,850,Excellent,3
+53,41,36-45,Female,WV,38059,Lower-Middle,68220,634,Fair,2
+54,59,56-65,Female,TX,52754,Lower-Middle,38191,693,Good,5
+55,45,36-45,Male,NY,51196,Lower-Middle,67164,631,Fair,4
+56,26,26-35,Male,GA,49713,Lower-Middle,91776,763,Very Good,1
+57,21,18-25,Female,OH,44160,Lower-Middle,134173,696,Good,3
+58,46,46-55,Female,TX,193773,High,241571,660,Fair,1
+59,41,36-45,Female,PA,29864,Low,44902,717,Good,2
+60,22,18-25,Male,TX,57367,Lower-Middle,115418,795,Very Good,2
+61,63,56-65,Female,WA,56635,Lower-Middle,13015,786,Very Good,8
+62,44,36-45,Male,UT,47227,Lower-Middle,151030,760,Very Good,4
+63,22,18-25,Male,TX,24574,Low,80667,674,Good,3
+64,29,26-35,Female,NY,43397,Lower-Middle,42168,697,Good,2
+65,28,26-35,Female,MD,58105,Lower-Middle,70254,688,Good,3
+66,82,66+,Male,TX,10869,Low,1820,820,Excellent,2
+67,90,66+,Female,PA,19893,Low,1712,566,Poor,3
+68,63,56-65,Male,OH,36743,Lower-Middle,71719,612,Fair,2
+69,49,46-55,Female,NJ,46377,Lower-Middle,79980,719,Good,3
+70,36,36-45,Female,CA,50179,Lower-Middle,110515,743,Very Good,1
+71,30,26-35,Male,CA,54537,Lower-Middle,121987,765,Very Good,4
+72,23,18-25,Male,FL,49255,Lower-Middle,6557,823,Excellent,2
+73,42,36-45,Male,IL,31031,Lower-Middle,21853,744,Very Good,7
+74,65,56-65,Male,TX,70673,Upper-Middle,87605,714,Good,4
+75,87,66+,Female,AL,16342,Low,1758,747,Very Good,5
+76,22,18-25,Male,TX,30961,Lower-Middle,42597,677,Good,1
+77,58,56-65,Female,SC,30305,Lower-Middle,23392,776,Very Good,3
+78,30,26-35,Male,OK,68784,Upper-Middle,198417,696,Good,4
+79,25,18-25,Female,MT,34745,Lower-Middle,26503,691,Good,4
+80,18,18-25,Female,LA,64715,Upper-Middle,174664,740,Very Good,3
+81,59,56-65,Female,PA,80464,Upper-Middle,76261,727,Good,3
+82,18,18-25,Female,PA,49748,Lower-Middle,23161,748,Very Good,1
+83,61,56-65,Male,CA,41904,Lower-Middle,12545,655,Fair,4
+84,54,46-55,Female,CA,196784,High,437533,729,Good,3
+85,27,26-35,Female,MI,100837,High,61377,687,Good,2
+86,32,26-35,Male,MI,51654,Lower-Middle,95454,600,Fair,4
+87,64,56-65,Female,OH,38088,Lower-Middle,51679,691,Good,2
+88,18,18-25,Male,LA,36866,Lower-Middle,0,680,Good,2
+89,52,46-55,Male,CA,37607,Lower-Middle,63689,749,Very Good,5
+90,49,46-55,Female,CO,34480,Lower-Middle,58795,696,Good,1
+91,43,36-45,Male,WI,48279,Lower-Middle,114254,719,Good,2
+92,36,36-45,Male,FL,32896,Lower-Middle,69800,735,Good,2
+93,18,18-25,Male,CA,29909,Low,42832,664,Fair,2
+94,37,36-45,Female,MN,47464,Lower-Middle,83591,716,Good,1
+95,23,18-25,Female,CA,85128,Upper-Middle,108678,641,Fair,1
+96,54,46-55,Male,NC,45852,Lower-Middle,114746,615,Fair,2
+97,33,26-35,Female,AZ,26556,Low,43042,840,Excellent,2
+98,63,56-65,Female,FL,40194,Lower-Middle,107765,738,Good,6
+99,22,18-25,Male,TX,62135,Upper-Middle,75209,676,Good,2
+100,48,46-55,Male,FL,39303,Lower-Middle,23650,702,Good,7
+101,63,56-65,Female,MD,71593,Upper-Middle,132181,821,Excellent,3
+102,75,66+,Male,IL,22158,Low,19101,681,Good,5
+103,62,56-65,Male,NY,53996,Lower-Middle,98211,632,Fair,4
+104,28,26-35,Female,FL,26025,Low,23971,723,Good,4
+105,25,18-25,Female,NY,63816,Upper-Middle,100128,775,Very Good,1
+106,56,56-65,Female,NC,66230,Upper-Middle,90248,742,Very Good,3
+107,56,56-65,Male,IL,36335,Lower-Middle,28929,676,Good,2
+108,59,56-65,Female,CA,39633,Lower-Middle,58586,777,Very Good,3
+109,43,36-45,Female,IN,57185,Lower-Middle,0,773,Very Good,3
+110,37,36-45,Male,GA,82637,Upper-Middle,84762,739,Good,2
+111,60,56-65,Female,MI,31121,Lower-Middle,32768,619,Fair,5
+112,47,46-55,Male,TX,30774,Lower-Middle,51428,700,Good,3
+113,48,46-55,Male,IL,33236,Lower-Middle,57549,747,Very Good,1
+114,35,26-35,Male,TX,37947,Lower-Middle,49951,683,Good,3
+115,24,18-25,Male,KS,43875,Lower-Middle,128146,639,Fair,1
+116,26,26-35,Female,CA,61850,Upper-Middle,81158,728,Good,9
+117,28,26-35,Male,GA,40314,Lower-Middle,131348,707,Good,4
+118,26,26-35,Male,DE,37968,Lower-Middle,55982,788,Very Good,3
+119,41,36-45,Male,MI,34954,Lower-Middle,45456,772,Very Good,3
+120,40,36-45,Male,CA,95945,Upper-Middle,222735,772,Very Good,2
+121,18,18-25,Female,MI,33844,Lower-Middle,42109,684,Good,2
+122,66,66+,Male,KS,65573,Upper-Middle,143069,739,Good,4
+123,40,36-45,Male,WI,48609,Lower-Middle,43520,737,Good,3
+124,45,36-45,Female,ID,25723,Low,34007,746,Very Good,3
+125,19,18-25,Female,AL,51984,Lower-Middle,79152,691,Good,3
+126,34,26-35,Male,CA,107683,High,225017,694,Good,3
+127,24,18-25,Female,CA,32847,Lower-Middle,33514,721,Good,2
+128,57,56-65,Male,MS,22556,Low,43260,645,Fair,4
+129,35,26-35,Female,MD,46063,Lower-Middle,106528,618,Fair,1
+130,19,18-25,Female,CT,95348,Upper-Middle,71972,706,Good,3
+131,28,26-35,Female,KS,45180,Lower-Middle,13168,698,Good,2
+132,37,36-45,Male,FL,30865,Lower-Middle,55079,594,Fair,1
+133,20,18-25,Male,MI,41543,Lower-Middle,49021,732,Good,4
+134,53,46-55,Male,TX,30198,Lower-Middle,40950,693,Good,6
+135,45,36-45,Female,FL,40006,Lower-Middle,72794,621,Fair,1
+136,53,46-55,Male,KS,61646,Upper-Middle,0,693,Good,3
+137,39,36-45,Female,MD,67643,Upper-Middle,0,714,Good,6
+138,86,66+,Female,MI,22650,Low,0,690,Good,6
+139,63,56-65,Male,NY,30288,Lower-Middle,42745,689,Good,4
+140,67,66+,Male,CA,47213,Lower-Middle,1082,789,Very Good,5
+141,76,66+,Female,OK,28215,Low,18116,697,Good,2
+142,32,26-35,Male,WA,105515,High,192458,646,Fair,4
+143,36,36-45,Male,FL,28489,Low,6087,808,Excellent,4
+144,63,56-65,Female,NC,81048,Upper-Middle,156195,781,Very Good,4
+145,19,18-25,Female,MD,47263,Lower-Middle,74853,726,Good,2
+146,19,18-25,Male,CA,33816,Lower-Middle,77770,635,Fair,1
+147,25,18-25,Female,IL,32160,Lower-Middle,62803,634,Fair,1
+148,83,66+,Female,AZ,29494,Low,1196,689,Good,5
+149,68,66+,Female,TN,70554,Upper-Middle,39078,655,Fair,5
+150,63,56-65,Male,IL,33686,Lower-Middle,24997,488,Poor,2
+151,92,66+,Female,AZ,57732,Lower-Middle,2261,726,Good,6
+152,21,18-25,Male,TN,21879,Low,69638,762,Very Good,1
+153,28,26-35,Male,PA,51041,Lower-Middle,106989,686,Good,1
+154,18,18-25,Male,MA,70380,Upper-Middle,106797,725,Good,2
+155,25,18-25,Male,IL,42617,Lower-Middle,67590,771,Very Good,5
+156,75,66+,Male,NJ,46031,Lower-Middle,8332,661,Fair,5
+157,55,46-55,Female,NY,65094,Upper-Middle,23909,699,Good,3
+158,27,26-35,Female,KY,37268,Lower-Middle,50388,626,Fair,1
+159,53,46-55,Female,CT,38972,Lower-Middle,44098,738,Good,3
+160,63,56-65,Female,CA,26661,Low,42667,750,Very Good,5
+161,48,46-55,Male,MN,82295,Upper-Middle,1555,736,Good,4
+162,47,46-55,Male,NC,25748,Low,41455,738,Good,3
+163,56,56-65,Male,TN,27861,Low,108313,782,Very Good,5
+164,18,18-25,Male,CA,48561,Lower-Middle,0,752,Very Good,1
+165,66,66+,Female,IN,38999,Lower-Middle,64875,747,Very Good,4
+166,62,56-65,Male,NC,33112,Lower-Middle,56040,716,Good,2
+167,34,26-35,Female,NC,100880,High,210445,770,Very Good,1
+168,22,18-25,Male,CA,37058,Lower-Middle,50548,680,Good,2
+169,24,18-25,Male,MD,47234,Lower-Middle,89154,685,Good,3
+170,45,36-45,Female,OK,35142,Lower-Middle,107898,731,Good,4
+171,43,36-45,Female,OR,30721,Lower-Middle,49961,749,Very Good,3
+172,56,56-65,Female,GA,58846,Lower-Middle,126806,746,Very Good,3
+173,29,26-35,Male,NY,39069,Lower-Middle,63884,720,Good,2
+174,20,18-25,Female,GA,49449,Lower-Middle,30723,728,Good,3
+175,39,36-45,Female,KY,22312,Low,39445,720,Good,5
+176,32,26-35,Male,OK,36388,Lower-Middle,92949,710,Good,4
+177,52,46-55,Female,FL,45037,Lower-Middle,31792,710,Good,3
+178,47,46-55,Female,WI,38615,Lower-Middle,74337,601,Fair,4
+179,40,36-45,Male,NY,28229,Low,55675,622,Fair,5
+180,58,56-65,Female,IN,50232,Lower-Middle,1218,751,Very Good,4
+181,59,56-65,Male,KY,34350,Lower-Middle,61639,705,Good,3
+182,47,46-55,Male,GA,52308,Lower-Middle,135319,679,Good,1
+183,27,26-35,Female,FL,32061,Lower-Middle,58904,676,Good,1
+184,75,66+,Male,UT,21154,Low,5764,705,Good,6
+185,52,46-55,Female,TX,52186,Lower-Middle,42852,737,Good,4
+186,43,36-45,Female,IN,35264,Lower-Middle,70328,770,Very Good,2
+187,84,66+,Female,CA,79870,Upper-Middle,4031,609,Fair,2
+188,70,66+,Female,MA,41902,Lower-Middle,29713,633,Fair,5
+189,24,18-25,Female,NV,63969,Upper-Middle,128412,626,Fair,1
+190,47,46-55,Male,VT,34606,Lower-Middle,23909,680,Good,5
+191,32,26-35,Male,GA,26631,Low,33950,805,Excellent,1
+192,39,36-45,Male,FL,35978,Lower-Middle,49366,643,Fair,3
+193,64,56-65,Male,TX,49756,Lower-Middle,89743,618,Fair,4
+194,37,36-45,Male,TN,60897,Upper-Middle,85771,850,Excellent,3
+195,58,56-65,Female,GA,41963,Lower-Middle,53857,741,Very Good,1
+196,37,36-45,Female,MN,44976,Lower-Middle,134335,684,Good,1
+197,27,26-35,Male,TX,46733,Lower-Middle,34333,692,Good,2
+198,26,26-35,Female,MA,47160,Lower-Middle,64193,578,Poor,1
+199,23,18-25,Male,IN,50433,Lower-Middle,97029,838,Excellent,3
+200,20,18-25,Male,WA,51713,Lower-Middle,86165,809,Excellent,1
+201,45,36-45,Male,TX,24215,Low,28552,707,Good,6
+202,49,46-55,Male,OH,37298,Lower-Middle,52134,683,Good,1
+203,25,18-25,Male,AZ,40457,Lower-Middle,68826,739,Good,1
+204,58,56-65,Male,MA,82974,Upper-Middle,181429,503,Poor,2
+205,46,46-55,Female,NY,71103,Upper-Middle,136853,721,Good,4
+206,43,36-45,Female,PA,29194,Low,10895,703,Good,2
+207,52,46-55,Male,NC,33465,Lower-Middle,98713,669,Fair,3
+208,20,18-25,Female,OH,31314,Lower-Middle,40331,721,Good,4
+209,36,36-45,Male,OK,23718,Low,1386,712,Good,2
+210,46,46-55,Female,MD,72670,Upper-Middle,28915,718,Good,3
+211,24,18-25,Female,OH,77972,Upper-Middle,6128,686,Good,3
+212,38,36-45,Female,AR,34854,Lower-Middle,40722,746,Very Good,5
+213,25,18-25,Female,OR,36902,Lower-Middle,60538,711,Good,1
+214,28,26-35,Female,FL,53984,Lower-Middle,76118,701,Good,1
+215,80,66+,Male,NJ,104692,High,6955,704,Good,2
+216,24,18-25,Female,WA,101191,High,290730,659,Fair,1
+217,38,36-45,Male,MI,69566,Upper-Middle,50003,791,Very Good,4
+218,21,18-25,Male,IL,49382,Lower-Middle,43126,762,Very Good,1
+219,41,36-45,Female,NC,28733,Low,0,702,Good,3
+220,87,66+,Male,IN,30349,Lower-Middle,2985,686,Good,4
+221,31,26-35,Male,IL,58538,Lower-Middle,93153,610,Fair,1
+222,32,26-35,Female,FL,36901,Lower-Middle,23293,695,Good,4
+223,70,66+,Male,PA,49531,Lower-Middle,6707,737,Good,6
+224,68,66+,Male,IL,35370,Lower-Middle,14777,562,Poor,1
+225,45,36-45,Female,OH,38666,Lower-Middle,116783,822,Excellent,1
+226,24,18-25,Female,MA,41714,Lower-Middle,54541,687,Good,3
+227,32,26-35,Male,VA,24505,Low,52405,759,Very Good,1
+228,43,36-45,Male,NY,56640,Lower-Middle,104134,672,Good,4
+229,53,46-55,Female,NY,61578,Upper-Middle,85383,602,Fair,2
+230,53,46-55,Female,IL,50139,Lower-Middle,109623,767,Very Good,3
+231,21,18-25,Male,KS,34646,Lower-Middle,54205,759,Very Good,1
+232,22,18-25,Male,TX,25024,Low,29227,691,Good,2
+233,41,36-45,Female,IL,32856,Lower-Middle,26535,703,Good,3
+234,41,36-45,Female,IL,36080,Lower-Middle,80443,839,Excellent,3
+235,32,26-35,Female,TX,29637,Low,56446,569,Poor,3
+236,56,56-65,Male,OK,28553,Low,94214,747,Very Good,3
+237,18,18-25,Male,MA,43499,Lower-Middle,108468,701,Good,4
+238,35,26-35,Female,IA,59248,Lower-Middle,173887,725,Good,5
+239,44,36-45,Male,IN,67008,Upper-Middle,81402,778,Very Good,8
+240,31,26-35,Female,CA,105963,High,106266,684,Good,4
+241,30,26-35,Male,AL,56383,Lower-Middle,130152,800,Excellent,4
+242,38,36-45,Male,TX,38609,Lower-Middle,27463,740,Very Good,3
+243,48,46-55,Male,FL,36671,Lower-Middle,39882,850,Excellent,3
+244,28,26-35,Male,GA,39860,Lower-Middle,112825,728,Good,1
+245,18,18-25,Female,VA,37785,Lower-Middle,58187,748,Very Good,1
+246,50,46-55,Male,IL,2466,Low,5521,711,Good,2
+247,68,66+,Female,MA,27358,Low,13557,665,Fair,2
+248,26,26-35,Female,GA,51024,Lower-Middle,181184,602,Fair,1
+249,40,36-45,Female,OK,101679,High,307856,592,Fair,1
+250,20,18-25,Male,CA,27801,Low,0,754,Very Good,1
+251,61,56-65,Female,NV,38536,Lower-Middle,72299,705,Good,1
+252,43,36-45,Female,SC,49577,Lower-Middle,142314,694,Good,3
+253,24,18-25,Male,CA,36672,Lower-Middle,49660,739,Good,2
+254,43,36-45,Male,TX,39404,Lower-Middle,71859,723,Good,5
+255,61,56-65,Female,IA,18452,Low,16827,741,Very Good,6
+256,39,36-45,Female,IL,56562,Lower-Middle,111495,712,Good,4
+257,90,66+,Female,CA,48580,Lower-Middle,1785,687,Good,7
+258,41,36-45,Female,NH,41469,Lower-Middle,119423,659,Fair,1
+259,52,46-55,Female,KY,32378,Lower-Middle,65919,588,Fair,4
+260,57,56-65,Male,NC,34437,Lower-Middle,0,681,Good,4
+261,83,66+,Female,MN,33897,Lower-Middle,533,705,Good,4
+262,38,36-45,Male,WA,49023,Lower-Middle,66148,583,Fair,5
+263,24,18-25,Female,IL,38609,Lower-Middle,39867,798,Very Good,3
+264,18,18-25,Female,VT,30712,Lower-Middle,38054,723,Good,2
+265,22,18-25,Male,TX,32645,Lower-Middle,59851,790,Very Good,3
+266,81,66+,Female,WA,31912,Lower-Middle,2182,630,Fair,4
+267,30,26-35,Male,NY,37521,Lower-Middle,65701,775,Very Good,2
+268,62,56-65,Female,MD,58463,Lower-Middle,141151,737,Good,4
+269,36,36-45,Female,NM,31414,Lower-Middle,42233,719,Good,4
+270,32,26-35,Female,NY,41106,Lower-Middle,106963,762,Very Good,3
+271,53,46-55,Female,IA,45876,Lower-Middle,58252,790,Very Good,7
+272,37,36-45,Female,CA,58637,Lower-Middle,87340,803,Excellent,6
+273,35,26-35,Male,AR,96574,Upper-Middle,265319,590,Fair,3
+274,18,18-25,Male,NJ,44128,Lower-Middle,142368,687,Good,3
+275,77,66+,Female,CO,31942,Lower-Middle,11845,713,Good,6
+276,27,26-35,Male,VA,57927,Lower-Middle,87736,557,Poor,1
+277,20,18-25,Male,IA,45725,Lower-Middle,102164,688,Good,4
+278,39,36-45,Male,ME,44134,Lower-Middle,0,792,Very Good,4
+279,19,18-25,Male,CA,56579,Lower-Middle,79726,705,Good,2
+280,37,36-45,Male,NC,46864,Lower-Middle,58954,751,Very Good,4
+281,44,36-45,Female,NV,56605,Lower-Middle,87970,624,Fair,3
+282,31,26-35,Female,CA,51209,Lower-Middle,76900,765,Very Good,1
+283,51,46-55,Male,FL,76305,Upper-Middle,112785,692,Good,3
+284,18,18-25,Male,PA,61325,Upper-Middle,83899,652,Fair,1
+285,42,36-45,Male,CA,31772,Lower-Middle,17286,734,Good,4
+286,61,56-65,Female,OR,73383,Upper-Middle,155191,760,Very Good,2
+287,55,46-55,Male,MA,53287,Lower-Middle,51026,816,Excellent,4
+288,88,66+,Female,TN,19225,Low,1644,809,Excellent,8
+289,62,56-65,Female,OH,60541,Upper-Middle,160456,716,Good,3
+290,44,36-45,Female,MI,44124,Lower-Middle,107162,850,Excellent,1
+291,88,66+,Female,MI,36764,Lower-Middle,839,712,Good,8
+292,47,46-55,Male,AL,29597,Low,44388,513,Poor,4
+293,37,36-45,Female,OH,38656,Lower-Middle,47523,584,Fair,1
+294,45,36-45,Male,NM,31373,Lower-Middle,58481,637,Fair,2
+295,22,18-25,Female,PA,33681,Lower-Middle,78326,697,Good,2
+296,39,36-45,Male,CA,38211,Lower-Middle,84427,665,Fair,2
+297,40,36-45,Female,FL,26802,Low,43444,638,Fair,2
+298,58,56-65,Female,TN,25334,Low,182,696,Good,3
+299,34,26-35,Male,PA,61904,Upper-Middle,125358,639,Fair,3
+300,101,66+,Female,AZ,15348,Low,1396,761,Very Good,4
+301,44,36-45,Female,TN,32527,Lower-Middle,74331,705,Good,3
+302,51,46-55,Male,FL,44170,Lower-Middle,90049,661,Fair,7
+303,28,26-35,Female,OR,46077,Lower-Middle,101450,686,Good,1
+304,58,56-65,Male,LA,23092,Low,20545,752,Very Good,4
+305,19,18-25,Male,CO,30710,Lower-Middle,30956,680,Good,2
+306,22,18-25,Female,OK,40491,Lower-Middle,81879,691,Good,2
+307,44,36-45,Male,CA,51454,Lower-Middle,151162,698,Good,4
+308,47,46-55,Female,NY,94133,Upper-Middle,189899,603,Fair,1
+309,58,56-65,Male,FL,36710,Lower-Middle,116794,786,Very Good,5
+310,62,56-65,Male,AL,37785,Lower-Middle,81500,745,Very Good,3
+311,58,56-65,Female,WA,33717,Lower-Middle,58236,698,Good,6
+312,50,46-55,Male,CA,29994,Low,100834,769,Very Good,1
+313,42,36-45,Female,FL,29422,Low,58679,598,Fair,1
+314,40,36-45,Male,PA,35489,Lower-Middle,91995,724,Good,5
+315,28,26-35,Female,AZ,33106,Lower-Middle,108695,763,Very Good,2
+316,26,26-35,Female,IL,59699,Lower-Middle,71110,688,Good,1
+317,58,56-65,Male,OR,68787,Upper-Middle,171854,527,Poor,1
+318,65,56-65,Female,MI,67344,Upper-Middle,7049,804,Excellent,4
+319,68,66+,Female,CA,88432,Upper-Middle,63075,694,Good,6
+320,36,36-45,Male,TX,53138,Lower-Middle,153374,606,Fair,4
+321,88,66+,Female,ND,38523,Lower-Middle,49,751,Very Good,5
+322,76,66+,Male,FL,26660,Low,28332,721,Good,4
+323,53,46-55,Female,PA,69412,Upper-Middle,177225,620,Fair,1
+324,26,26-35,Male,LA,65888,Upper-Middle,162364,803,Excellent,2
+325,37,36-45,Male,CA,25205,Low,65179,688,Good,1
+326,38,36-45,Female,NY,39627,Lower-Middle,47793,718,Good,4
+327,42,36-45,Female,MS,27967,Low,50159,690,Good,2
+328,50,46-55,Female,LA,38142,Lower-Middle,0,768,Very Good,4
+329,36,36-45,Female,WA,58964,Lower-Middle,71890,619,Fair,1
+330,74,66+,Male,MA,58378,Lower-Middle,73124,652,Fair,1
+331,53,46-55,Male,TX,53872,Lower-Middle,64269,691,Good,5
+332,75,66+,Female,MN,41513,Lower-Middle,15899,748,Very Good,3
+333,49,46-55,Female,LA,54587,Lower-Middle,69070,761,Very Good,6
+334,22,18-25,Male,OH,41595,Lower-Middle,54451,675,Good,1
+335,44,36-45,Male,NY,44953,Lower-Middle,97076,728,Good,1
+336,28,26-35,Male,IN,35199,Lower-Middle,68569,739,Good,2
+337,28,26-35,Female,IL,28324,Low,62363,695,Good,2
+338,38,36-45,Male,PA,33387,Lower-Middle,69066,526,Poor,3
+339,24,18-25,Male,TN,31006,Lower-Middle,71031,681,Good,2
+340,29,26-35,Male,NC,32636,Lower-Middle,42290,782,Very Good,1
+341,58,56-65,Male,TX,25883,Low,44404,706,Good,4
+342,26,26-35,Female,CA,19069,Low,23153,658,Fair,1
+343,59,56-65,Female,AZ,44992,Lower-Middle,53368,785,Very Good,3
+344,58,56-65,Male,FL,32295,Lower-Middle,72357,698,Good,4
+345,57,56-65,Female,NY,69159,Upper-Middle,135111,786,Very Good,3
+346,42,36-45,Female,MI,12643,Low,19299,645,Fair,1
+347,34,26-35,Female,CA,87030,Upper-Middle,161964,727,Good,3
+348,82,66+,Female,IL,41793,Lower-Middle,1141,730,Good,5
+349,39,36-45,Male,AL,41907,Lower-Middle,87163,728,Good,4
+350,48,46-55,Male,NH,40336,Lower-Middle,144284,668,Fair,4
+351,19,18-25,Female,OH,31683,Lower-Middle,46987,817,Excellent,4
+352,57,56-65,Female,NV,39508,Lower-Middle,18870,770,Very Good,4
+353,42,36-45,Male,SC,24859,Low,43986,683,Good,2
+354,42,36-45,Male,MA,69440,Upper-Middle,129944,743,Very Good,3
+355,25,18-25,Male,TX,21666,Low,38058,610,Fair,2
+356,30,26-35,Female,NY,46599,Lower-Middle,12700,684,Good,4
+357,22,18-25,Male,CA,50525,Lower-Middle,118160,701,Good,2
+358,60,56-65,Female,IL,52397,Lower-Middle,72810,729,Good,3
+359,53,46-55,Male,IN,39222,Lower-Middle,66559,583,Fair,3
+360,73,66+,Male,TX,18015,Low,10463,645,Fair,2
+361,65,56-65,Female,MI,42102,Lower-Middle,9645,672,Good,3
+362,36,36-45,Male,IA,37316,Lower-Middle,37515,726,Good,2
+363,18,18-25,Female,CA,41717,Lower-Middle,27174,718,Good,5
+364,75,66+,Male,KY,20797,Low,10127,777,Very Good,1
+365,76,66+,Male,MN,38800,Lower-Middle,25867,758,Very Good,7
+366,51,46-55,Male,VA,29622,Low,17385,694,Good,3
+367,88,66+,Female,KY,31399,Lower-Middle,2528,757,Very Good,4
+368,48,46-55,Female,MD,63355,Upper-Middle,0,708,Good,5
+369,19,18-25,Female,TX,31197,Lower-Middle,84749,844,Excellent,2
+370,38,36-45,Male,NY,104049,High,247623,741,Very Good,2
+371,35,26-35,Male,TX,50177,Lower-Middle,101323,681,Good,4
+372,40,36-45,Female,SC,34344,Lower-Middle,48931,548,Poor,1
+373,31,26-35,Female,PA,34884,Lower-Middle,26799,705,Good,5
+374,33,26-35,Female,MD,56897,Lower-Middle,0,699,Good,5
+375,38,36-45,Female,DE,72647,Upper-Middle,90579,739,Good,1
+376,49,46-55,Male,AL,51755,Lower-Middle,88605,806,Excellent,1
+377,60,56-65,Male,MA,115465,High,195657,715,Good,4
+378,18,18-25,Male,FL,35731,Lower-Middle,71825,503,Poor,2
+379,18,18-25,Female,FL,64936,Upper-Middle,107755,688,Good,2
+380,24,18-25,Male,NV,62711,Upper-Middle,68777,798,Very Good,3
+381,41,36-45,Female,NJ,30910,Lower-Middle,42507,749,Very Good,4
+382,27,26-35,Male,WA,43264,Lower-Middle,89798,729,Good,1
+383,18,18-25,Male,CA,48909,Lower-Middle,71310,740,Very Good,2
+384,32,26-35,Female,IL,85694,Upper-Middle,120733,822,Excellent,2
+385,81,66+,Female,OK,27864,Low,1371,591,Fair,6
+386,21,18-25,Male,WI,44513,Lower-Middle,105303,778,Very Good,6
+387,27,26-35,Female,VA,58026,Lower-Middle,133169,691,Good,1
+388,18,18-25,Female,TX,63600,Upper-Middle,102773,645,Fair,1
+389,19,18-25,Female,MS,31797,Lower-Middle,5400,843,Excellent,2
+390,40,36-45,Female,CA,44585,Lower-Middle,81825,684,Good,5
+391,51,46-55,Female,MO,41427,Lower-Middle,53773,850,Excellent,3
+392,51,46-55,Female,SC,34517,Lower-Middle,74143,645,Fair,2
+393,50,46-55,Female,UT,43294,Lower-Middle,104521,816,Excellent,7
+394,27,26-35,Female,CO,61317,Upper-Middle,0,741,Very Good,3
+395,68,66+,Male,CA,50184,Lower-Middle,27778,732,Good,4
+396,47,46-55,Male,OH,43133,Lower-Middle,44263,693,Good,3
+397,23,18-25,Female,IA,44361,Lower-Middle,71031,705,Good,1
+398,57,56-65,Female,CA,26664,Low,12241,709,Good,4
+399,85,66+,Female,VA,41843,Lower-Middle,1741,500,Poor,3
+400,22,18-25,Male,FL,49952,Lower-Middle,95184,780,Very Good,1
+401,26,26-35,Male,IL,99883,Upper-Middle,171034,732,Good,1
+402,40,36-45,Female,IN,38527,Lower-Middle,36933,684,Good,2
+403,32,26-35,Female,VT,36729,Lower-Middle,48624,686,Good,3
+404,63,56-65,Female,NY,29477,Low,56355,850,Excellent,4
+405,52,46-55,Male,CA,71645,Upper-Middle,155006,629,Fair,3
+406,62,56-65,Female,NY,46232,Lower-Middle,68957,691,Good,4
+407,20,18-25,Female,IN,36775,Lower-Middle,102641,850,Excellent,3
+408,41,36-45,Male,ID,38812,Lower-Middle,16331,762,Very Good,4
+409,20,18-25,Female,NY,40130,Lower-Middle,55801,798,Very Good,1
+410,38,36-45,Female,NY,36045,Lower-Middle,0,683,Good,3
+411,52,46-55,Female,NJ,66489,Upper-Middle,83828,731,Good,2
+412,31,26-35,Female,OR,41475,Lower-Middle,0,747,Very Good,2
+413,56,56-65,Male,WA,55682,Lower-Middle,82696,750,Very Good,4
+414,51,46-55,Female,FL,57646,Lower-Middle,127892,724,Good,4
+415,19,18-25,Female,TX,39556,Lower-Middle,132573,572,Poor,1
+416,36,36-45,Male,CA,34330,Lower-Middle,15223,713,Good,4
+417,82,66+,Male,FL,10142,Low,1809,767,Very Good,7
+418,30,26-35,Male,MD,76867,Upper-Middle,118029,659,Fair,1
+419,22,18-25,Female,IL,52379,Lower-Middle,107734,771,Very Good,3
+420,39,36-45,Male,IN,57348,Lower-Middle,119230,527,Poor,3
+421,49,46-55,Male,TN,38041,Lower-Middle,27813,782,Very Good,4
+422,28,26-35,Female,AZ,53053,Lower-Middle,42396,696,Good,2
+423,35,26-35,Male,OH,36857,Lower-Middle,3112,768,Very Good,3
+424,54,46-55,Female,WA,76431,Upper-Middle,115362,716,Good,5
+425,78,66+,Male,CA,18100,Low,0,682,Good,6
+426,45,36-45,Female,FL,16628,Low,33926,654,Fair,1
+427,79,66+,Male,NC,29041,Low,4427,699,Good,4
+428,47,46-55,Female,NC,35876,Lower-Middle,50190,635,Fair,3
+429,19,18-25,Male,NJ,81995,Upper-Middle,133788,685,Good,2
+430,50,46-55,Female,MN,82298,Upper-Middle,0,791,Very Good,4
+431,30,26-35,Male,KY,61916,Upper-Middle,165886,655,Fair,4
+432,56,56-65,Female,AR,30042,Lower-Middle,9208,727,Good,4
+433,55,46-55,Female,OH,44839,Lower-Middle,63194,625,Fair,3
+434,25,18-25,Male,FL,60638,Upper-Middle,132252,661,Fair,1
+435,26,26-35,Female,OH,30049,Lower-Middle,80474,700,Good,1
+436,54,46-55,Female,IA,29699,Low,6569,711,Good,3
+437,29,26-35,Male,AK,41836,Lower-Middle,60302,615,Fair,2
+438,55,46-55,Male,CA,23103,Low,63635,681,Good,3
+439,72,66+,Male,MD,57513,Lower-Middle,11755,793,Very Good,5
+440,66,66+,Female,TN,38249,Lower-Middle,0,746,Very Good,4
+441,41,36-45,Female,VA,41496,Lower-Middle,9222,807,Excellent,2
+442,24,18-25,Female,NJ,90812,Upper-Middle,175569,850,Excellent,3
+443,35,26-35,Male,NM,30217,Lower-Middle,23394,705,Good,4
+444,29,26-35,Female,MO,61581,Upper-Middle,241312,736,Good,2
+445,53,46-55,Male,AR,33566,Lower-Middle,96597,698,Good,1
+446,66,66+,Female,TX,35560,Lower-Middle,60397,723,Good,5
+447,21,18-25,Female,CA,64630,Upper-Middle,92847,751,Very Good,2
+448,67,66+,Female,GA,57705,Lower-Middle,22475,684,Good,3
+449,58,56-65,Male,TX,24155,Low,2870,802,Excellent,3
+450,27,26-35,Male,TN,35026,Lower-Middle,11468,743,Very Good,5
+451,29,26-35,Female,NC,36404,Lower-Middle,11745,726,Good,3
+452,50,46-55,Male,NC,38179,Lower-Middle,50559,609,Fair,2
+453,36,36-45,Female,TX,161276,High,317964,540,Poor,1
+454,31,26-35,Male,TX,32086,Lower-Middle,53595,747,Very Good,4
+455,22,18-25,Female,IL,37505,Lower-Middle,57014,714,Good,3
+456,69,66+,Female,CA,46487,Lower-Middle,57336,635,Fair,3
+457,23,18-25,Female,SD,37891,Lower-Middle,66163,749,Very Good,1
+458,54,46-55,Female,CO,61312,Upper-Middle,25355,708,Good,3
+459,46,46-55,Male,OH,52130,Lower-Middle,80367,701,Good,1
+460,27,26-35,Female,NY,40744,Lower-Middle,50803,717,Good,1
+461,86,66+,Female,HI,49529,Lower-Middle,1385,689,Good,6
+462,76,66+,Male,KS,41790,Lower-Middle,24676,719,Good,5
+463,81,66+,Female,CA,29928,Low,2028,713,Good,4
+464,47,46-55,Female,NY,42976,Lower-Middle,58765,748,Very Good,3
+465,40,36-45,Male,GA,32126,Lower-Middle,56283,770,Very Good,3
+466,56,56-65,Male,OH,45202,Lower-Middle,71022,683,Good,4
+467,20,18-25,Female,FL,34907,Lower-Middle,64107,742,Very Good,3
+468,27,26-35,Male,PA,34591,Lower-Middle,65770,688,Good,2
+469,22,18-25,Female,NC,31933,Lower-Middle,65405,746,Very Good,1
+470,42,36-45,Male,TX,52165,Lower-Middle,97248,730,Good,4
+471,58,56-65,Female,OH,29519,Low,45597,643,Fair,3
+472,57,56-65,Male,IN,32583,Lower-Middle,12501,812,Excellent,7
+473,37,36-45,Male,LA,59139,Lower-Middle,128870,742,Very Good,4
+474,44,36-45,Male,TX,62185,Upper-Middle,114235,749,Very Good,1
+475,22,18-25,Male,OR,35800,Lower-Middle,65841,753,Very Good,2
+476,26,26-35,Male,MD,72485,Upper-Middle,31605,691,Good,2
+477,24,18-25,Female,CA,52036,Lower-Middle,26232,703,Good,3
+478,33,26-35,Male,MI,35499,Lower-Middle,80517,724,Good,1
+479,44,36-45,Male,TN,31015,Lower-Middle,103094,737,Good,2
+480,79,66+,Male,CA,53222,Lower-Middle,23051,640,Fair,1
+481,56,56-65,Female,NJ,280199,High,91367,752,Very Good,5
+482,48,46-55,Male,IA,36853,Lower-Middle,112139,834,Excellent,5
+483,22,18-25,Male,NJ,37497,Lower-Middle,0,695,Good,1
+484,88,66+,Female,NJ,31828,Lower-Middle,3777,593,Fair,3
+485,49,46-55,Female,TX,71866,Upper-Middle,132580,662,Fair,1
+486,62,56-65,Male,CA,34496,Lower-Middle,33122,731,Good,5
+487,74,66+,Female,TX,39003,Lower-Middle,10793,788,Very Good,5
+488,68,66+,Male,CA,11566,Low,9102,536,Poor,4
+489,45,36-45,Female,GA,52172,Lower-Middle,66085,667,Fair,4
+490,91,66+,Male,FL,40141,Lower-Middle,805,850,Excellent,6
+491,48,46-55,Male,PA,39733,Lower-Middle,79302,781,Very Good,4
+492,29,26-35,Female,OH,51651,Lower-Middle,22705,801,Excellent,3
+493,22,18-25,Female,AZ,49190,Lower-Middle,122458,630,Fair,1
+494,42,36-45,Male,WV,36711,Lower-Middle,84949,739,Good,4
+495,22,18-25,Male,MD,46344,Lower-Middle,66994,732,Good,3
+496,26,26-35,Male,PA,100991,High,0,722,Good,3
+497,62,56-65,Female,SD,32819,Lower-Middle,25393,826,Excellent,5
+498,30,26-35,Male,IL,47803,Lower-Middle,81929,652,Fair,1
+499,44,36-45,Male,OR,38661,Lower-Middle,88636,765,Very Good,3
+500,45,36-45,Male,PA,57658,Lower-Middle,74288,766,Very Good,5
+501,45,36-45,Female,MS,22249,Low,20420,789,Very Good,3
+502,38,36-45,Female,FL,64647,Upper-Middle,58250,738,Good,4
+503,32,26-35,Female,CT,58749,Lower-Middle,113308,768,Very Good,6
+504,46,46-55,Female,UT,29510,Low,47153,752,Very Good,4
+505,53,46-55,Female,CA,36672,Lower-Middle,99454,655,Fair,2
+506,41,36-45,Female,MA,79271,Upper-Middle,211919,759,Very Good,1
+507,35,26-35,Female,FL,40156,Lower-Middle,70128,738,Good,3
+508,30,26-35,Female,MO,57853,Lower-Middle,131828,558,Poor,4
+509,73,66+,Female,MD,37789,Lower-Middle,24575,605,Fair,3
+510,61,56-65,Male,TX,41865,Lower-Middle,60911,676,Good,4
+511,66,66+,Male,OH,61937,Upper-Middle,138153,684,Good,7
+512,32,26-35,Female,NC,32274,Lower-Middle,72974,545,Poor,1
+513,48,46-55,Male,NJ,75785,Upper-Middle,117920,814,Excellent,3
+514,50,46-55,Male,NC,45560,Lower-Middle,79660,644,Fair,3
+515,46,46-55,Female,WI,40810,Lower-Middle,65643,614,Fair,4
+516,58,56-65,Male,AR,38371,Lower-Middle,50530,703,Good,3
+517,46,46-55,Female,SC,48762,Lower-Middle,143208,771,Very Good,6
+518,26,26-35,Male,CA,58435,Lower-Middle,134789,666,Fair,2
+519,48,46-55,Male,VA,39124,Lower-Middle,66231,722,Good,4
+520,50,46-55,Male,WA,63673,Upper-Middle,147913,591,Fair,4
+521,34,26-35,Female,CA,38081,Lower-Middle,28613,811,Excellent,4
+522,23,18-25,Female,SC,29450,Low,36002,692,Good,1
+523,56,56-65,Female,IL,57576,Lower-Middle,161107,589,Fair,2
+524,31,26-35,Female,OK,34311,Lower-Middle,6971,680,Good,4
+525,63,56-65,Female,FL,54095,Lower-Middle,76109,753,Very Good,3
+526,24,18-25,Female,CA,24648,Low,32962,600,Fair,1
+527,37,36-45,Female,CO,66863,Upper-Middle,89031,673,Good,1
+528,61,56-65,Female,NC,30165,Lower-Middle,36972,694,Good,2
+529,53,46-55,Male,IL,189490,High,448929,717,Good,3
+530,19,18-25,Female,KY,48582,Lower-Middle,189348,546,Poor,1
+531,84,66+,Male,PA,26476,Low,406,813,Excellent,5
+532,39,36-45,Male,NH,56486,Lower-Middle,116394,689,Good,2
+533,59,56-65,Female,TX,35906,Lower-Middle,69819,659,Fair,3
+534,19,18-25,Female,IN,55587,Lower-Middle,151141,621,Fair,2
+535,21,18-25,Female,WI,36733,Lower-Middle,0,761,Very Good,3
+536,48,46-55,Female,NE,67761,Upper-Middle,0,745,Very Good,4
+537,57,56-65,Male,TN,36282,Lower-Middle,14141,725,Good,1
+538,46,46-55,Female,FL,56467,Lower-Middle,66565,688,Good,3
+539,55,46-55,Female,OH,37645,Lower-Middle,46298,654,Fair,4
+540,48,46-55,Male,MA,49967,Lower-Middle,62509,655,Fair,1
+541,20,18-25,Male,PA,64548,Upper-Middle,14864,726,Good,1
+542,20,18-25,Male,VA,28421,Low,77772,738,Good,1
+543,33,26-35,Female,AL,35213,Lower-Middle,87653,719,Good,3
+544,48,46-55,Male,LA,29962,Low,55000,684,Good,3
+545,49,46-55,Male,FL,35868,Lower-Middle,48465,562,Poor,4
+546,31,26-35,Male,NV,38193,Lower-Middle,39874,703,Good,3
+547,48,46-55,Male,IN,43084,Lower-Middle,0,850,Excellent,3
+548,42,36-45,Female,OH,37415,Lower-Middle,66403,665,Fair,1
+549,40,36-45,Male,NJ,35418,Lower-Middle,51741,660,Fair,6
+550,18,18-25,Male,NC,31259,Lower-Middle,40701,798,Very Good,2
+551,26,26-35,Male,WA,41255,Lower-Middle,85439,683,Good,2
+552,41,36-45,Female,NC,34774,Lower-Middle,78060,850,Excellent,5
+553,90,66+,Female,NY,51717,Lower-Middle,418,717,Good,5
+554,52,46-55,Male,TX,41483,Lower-Middle,64715,584,Fair,1
+555,28,26-35,Female,MD,34825,Lower-Middle,65082,759,Very Good,1
+556,51,46-55,Male,NC,37346,Lower-Middle,64030,680,Good,5
+557,58,56-65,Female,FL,44699,Lower-Middle,21685,842,Excellent,5
+558,35,26-35,Male,FL,17316,Low,26872,748,Very Good,1
+559,57,56-65,Male,ME,49467,Lower-Middle,77465,697,Good,5
+560,18,18-25,Female,KS,34242,Lower-Middle,0,837,Excellent,1
+561,25,18-25,Male,AL,70502,Upper-Middle,90003,614,Fair,2
+562,59,56-65,Female,MA,80156,Upper-Middle,61817,735,Good,4
+563,51,46-55,Female,CT,49737,Lower-Middle,136056,643,Fair,1
+564,60,56-65,Male,OH,31003,Lower-Middle,23000,699,Good,3
+565,23,18-25,Female,FL,29376,Low,51428,629,Fair,1
+566,56,56-65,Female,GA,29413,Low,46043,703,Good,2
+567,28,26-35,Female,WA,55684,Lower-Middle,114269,722,Good,3
+568,39,36-45,Male,IL,40894,Lower-Middle,51844,657,Fair,1
+569,64,56-65,Female,CA,47242,Lower-Middle,62224,704,Good,6
+570,65,56-65,Male,NE,28951,Low,56777,711,Good,2
+571,53,46-55,Male,TX,66428,Upper-Middle,197102,669,Fair,2
+572,52,46-55,Female,TX,73920,Upper-Middle,166395,683,Good,1
+573,22,18-25,Female,UT,21490,Low,32587,682,Good,2
+574,68,66+,Female,MA,59938,Lower-Middle,36978,670,Good,1
+575,54,46-55,Male,NY,52062,Lower-Middle,97881,775,Very Good,4
+576,58,56-65,Male,CA,59322,Lower-Middle,145137,694,Good,3
+577,26,26-35,Female,MI,53254,Lower-Middle,131334,736,Good,1
+578,61,56-65,Male,IN,32716,Lower-Middle,46919,593,Fair,3
+579,79,66+,Male,MI,30977,Lower-Middle,21507,796,Very Good,5
+580,67,66+,Female,MI,34954,Lower-Middle,5942,729,Good,3
+581,47,46-55,Female,IL,24372,Low,63295,793,Very Good,4
+582,51,46-55,Female,OH,37169,Lower-Middle,93844,722,Good,3
+583,36,36-45,Male,TX,39871,Lower-Middle,73726,719,Good,4
+584,44,36-45,Female,MN,40026,Lower-Middle,70877,768,Very Good,1
+585,19,18-25,Female,TX,71740,Upper-Middle,38238,767,Very Good,2
+586,21,18-25,Male,NY,41087,Lower-Middle,22720,695,Good,2
+587,18,18-25,Female,AK,58579,Lower-Middle,94998,808,Excellent,1
+588,86,66+,Male,TX,33426,Lower-Middle,1852,699,Good,4
+589,23,18-25,Female,LA,44862,Lower-Middle,78350,750,Very Good,3
+590,34,26-35,Male,OH,45388,Lower-Middle,64749,723,Good,1
+591,73,66+,Male,GA,34220,Lower-Middle,0,745,Very Good,5
+592,19,18-25,Male,PA,118862,High,276156,782,Very Good,1
+593,20,18-25,Female,NY,60265,Upper-Middle,80939,582,Fair,3
+594,45,36-45,Male,KY,23740,Low,4313,841,Excellent,3
+595,39,36-45,Male,FL,38386,Lower-Middle,74820,850,Excellent,6
+596,46,46-55,Male,RI,38872,Lower-Middle,86648,585,Fair,1
+597,37,36-45,Female,GA,49335,Lower-Middle,51520,773,Very Good,3
+598,50,46-55,Female,MI,40246,Lower-Middle,74352,641,Fair,5
+599,50,46-55,Male,IL,81122,Upper-Middle,112394,682,Good,5
+600,18,18-25,Male,FL,29265,Low,37375,647,Fair,1
+601,51,46-55,Male,AZ,62304,Upper-Middle,113416,719,Good,4
+602,54,46-55,Male,TX,43598,Lower-Middle,15891,757,Very Good,4
+603,54,46-55,Male,TX,46603,Lower-Middle,57177,612,Fair,1
+604,26,26-35,Male,FL,28931,Low,34511,711,Good,4
+605,42,36-45,Female,VA,73208,Upper-Middle,115827,664,Fair,6
+606,42,36-45,Female,NJ,77288,Upper-Middle,46160,771,Very Good,4
+607,30,26-35,Male,FL,37544,Lower-Middle,15489,703,Good,4
+608,58,56-65,Male,IL,40628,Lower-Middle,66552,636,Fair,1
+609,24,18-25,Female,GA,31469,Lower-Middle,53555,645,Fair,1
+610,53,46-55,Male,NM,31369,Lower-Middle,0,707,Good,3
+611,36,36-45,Female,OH,33339,Lower-Middle,83353,679,Good,2
+612,25,18-25,Male,FL,41338,Lower-Middle,90737,772,Very Good,1
+613,54,46-55,Female,NY,35114,Lower-Middle,24637,686,Good,5
+614,39,36-45,Male,KY,51499,Lower-Middle,7226,788,Very Good,4
+615,85,66+,Female,NJ,9795,Low,396,771,Very Good,7
+616,19,18-25,Male,CA,95045,Upper-Middle,132371,708,Good,3
+617,66,66+,Male,FL,36589,Lower-Middle,86573,676,Good,3
+618,59,56-65,Female,FL,58959,Lower-Middle,109358,598,Fair,2
+619,61,56-65,Male,CA,28210,Low,22961,655,Fair,2
+620,39,36-45,Male,MD,56347,Lower-Middle,32530,779,Very Good,3
+621,59,56-65,Female,NC,36760,Lower-Middle,95755,593,Fair,2
+622,38,36-45,Male,CA,59482,Lower-Middle,130605,688,Good,4
+623,55,46-55,Female,TX,24827,Low,60261,590,Fair,1
+624,67,66+,Female,CA,52929,Lower-Middle,37514,737,Good,7
+625,52,46-55,Male,IN,63433,Upper-Middle,122550,770,Very Good,7
+626,21,18-25,Male,TX,39485,Lower-Middle,144101,685,Good,1
+627,33,26-35,Female,IN,51938,Lower-Middle,97252,697,Good,2
+628,68,66+,Female,VA,65298,Upper-Middle,18684,524,Poor,2
+629,58,56-65,Female,GA,32520,Lower-Middle,29433,731,Good,4
+630,41,36-45,Male,IL,39472,Lower-Middle,82626,698,Good,1
+631,37,36-45,Female,HI,34457,Lower-Middle,48966,666,Fair,2
+632,48,46-55,Male,NY,53478,Lower-Middle,73030,674,Good,3
+633,39,36-45,Male,MI,32343,Lower-Middle,59006,732,Good,3
+634,83,66+,Male,SC,31943,Lower-Middle,1248,686,Good,6
+635,41,36-45,Female,IA,32789,Lower-Middle,47679,699,Good,2
+636,29,26-35,Male,CA,41873,Lower-Middle,76725,717,Good,1
+637,44,36-45,Male,IN,37115,Lower-Middle,58438,685,Good,3
+638,40,36-45,Female,KY,30997,Lower-Middle,81716,722,Good,2
+639,25,18-25,Female,WA,88554,Upper-Middle,142154,701,Good,2
+640,29,26-35,Male,CA,29682,Low,65845,659,Fair,2
+641,61,56-65,Male,CO,53762,Lower-Middle,37361,689,Good,8
+642,19,18-25,Female,NY,54477,Lower-Middle,72241,802,Excellent,2
+643,30,26-35,Female,MO,33076,Lower-Middle,50117,721,Good,3
+644,58,56-65,Male,PA,49595,Lower-Middle,68057,676,Good,1
+645,31,26-35,Male,MA,82019,Upper-Middle,64583,695,Good,3
+646,76,66+,Male,CA,51942,Lower-Middle,22839,723,Good,4
+647,74,66+,Female,CA,29130,Low,8746,720,Good,5
+648,71,66+,Female,WV,13937,Low,3854,783,Very Good,4
+649,20,18-25,Male,IL,38158,Lower-Middle,80609,666,Fair,1
+650,47,46-55,Female,IL,68710,Upper-Middle,201796,717,Good,3
+651,37,36-45,Female,IL,100303,High,53919,821,Excellent,2
+652,58,56-65,Female,NH,50980,Lower-Middle,87715,691,Good,1
+653,18,18-25,Male,IA,46810,Lower-Middle,0,747,Very Good,2
+654,61,56-65,Male,WA,103185,High,206422,564,Poor,1
+655,23,18-25,Male,NV,46704,Lower-Middle,91946,810,Excellent,1
+656,35,26-35,Male,PA,103126,High,130160,642,Fair,1
+657,48,46-55,Male,NC,37468,Lower-Middle,73448,666,Fair,3
+658,51,46-55,Female,NY,112695,High,35135,840,Excellent,6
+659,23,18-25,Male,MI,44181,Lower-Middle,82622,701,Good,1
+660,26,26-35,Female,NY,67820,Upper-Middle,86177,628,Fair,2
+661,80,66+,Female,IN,24884,Low,1828,850,Excellent,6
+662,41,36-45,Female,CA,553,Low,740,719,Good,3
+663,40,36-45,Male,MA,72470,Upper-Middle,133421,711,Good,2
+664,35,26-35,Female,IL,36081,Lower-Middle,118151,682,Good,2
+665,37,36-45,Male,MA,59375,Lower-Middle,0,729,Good,2
+666,18,18-25,Male,MS,48491,Lower-Middle,158871,588,Fair,1
+667,60,56-65,Female,IN,30867,Lower-Middle,12686,794,Very Good,3
+668,33,26-35,Female,NC,39974,Lower-Middle,64403,652,Fair,2
+669,39,36-45,Male,TX,49611,Lower-Middle,110543,739,Good,4
+670,24,18-25,Male,LA,35856,Lower-Middle,73257,712,Good,4
+671,35,26-35,Female,VA,35760,Lower-Middle,62768,830,Excellent,1
+672,40,36-45,Male,SC,27013,Low,58806,651,Fair,3
+673,63,56-65,Male,CO,58006,Lower-Middle,20196,774,Very Good,1
+674,80,66+,Female,WA,39110,Lower-Middle,363,750,Very Good,5
+675,38,36-45,Female,KY,40087,Lower-Middle,17392,712,Good,2
+676,46,46-55,Male,PA,35891,Lower-Middle,87749,577,Poor,3
+677,83,66+,Female,CT,74753,Upper-Middle,1585,726,Good,5
+678,31,26-35,Male,CA,26511,Low,21869,769,Very Good,6
+679,76,66+,Male,KS,19682,Low,0,683,Good,4
+680,81,66+,Female,FL,23217,Low,2559,616,Fair,3
+681,30,26-35,Male,CO,67589,Upper-Middle,0,734,Good,3
+682,30,26-35,Male,MA,92960,Upper-Middle,64167,724,Good,3
+683,52,46-55,Female,CA,87030,Upper-Middle,156474,646,Fair,5
+684,72,66+,Male,NY,22918,Low,11371,750,Very Good,5
+685,29,26-35,Female,UT,49842,Lower-Middle,79750,698,Good,1
+686,36,36-45,Female,DE,35933,Lower-Middle,23451,812,Excellent,2
+687,42,36-45,Male,HI,36860,Lower-Middle,65049,714,Good,3
+688,53,46-55,Male,GA,28269,Low,66681,734,Good,6
+689,20,18-25,Male,OH,40426,Lower-Middle,76199,727,Good,1
+690,43,36-45,Female,CA,37371,Lower-Middle,3378,739,Good,4
+691,33,26-35,Female,CA,67589,Upper-Middle,106072,602,Fair,2
+692,55,46-55,Male,NY,80957,Upper-Middle,161166,683,Good,6
+693,64,56-65,Female,CT,192269,High,100192,700,Good,6
+694,34,26-35,Male,AZ,35641,Lower-Middle,64419,625,Fair,2
+695,33,26-35,Female,TN,28696,Low,52910,686,Good,4
+696,30,26-35,Male,NY,38153,Lower-Middle,92466,658,Fair,1
+697,51,46-55,Female,VA,71490,Upper-Middle,0,782,Very Good,3
+698,20,18-25,Female,WA,43006,Lower-Middle,26144,688,Good,2
+699,44,36-45,Male,LA,49523,Lower-Middle,89129,688,Good,4
+700,31,26-35,Male,TN,21876,Low,20169,786,Very Good,2
+701,27,26-35,Female,IN,44843,Lower-Middle,67179,756,Very Good,2
+702,43,36-45,Female,NC,35938,Lower-Middle,47204,670,Good,3
+703,73,66+,Female,VA,28553,Low,19507,745,Very Good,5
+704,18,18-25,Female,NC,39803,Lower-Middle,53607,695,Good,1
+705,50,46-55,Female,CA,49076,Lower-Middle,56547,715,Good,4
+706,41,36-45,Male,OH,56368,Lower-Middle,71544,664,Fair,3
+707,35,26-35,Female,PA,32855,Lower-Middle,94228,693,Good,2
+708,65,56-65,Male,TX,18149,Low,26672,738,Good,2
+709,44,36-45,Male,OH,40407,Lower-Middle,25986,697,Good,3
+710,19,18-25,Male,AZ,48418,Lower-Middle,73106,756,Very Good,2
+711,61,56-65,Male,NY,59815,Lower-Middle,73325,573,Poor,2
+712,23,18-25,Female,IL,42454,Lower-Middle,63754,750,Very Good,4
+713,43,36-45,Female,NC,32775,Lower-Middle,72785,637,Fair,1
+714,36,36-45,Male,WI,57532,Lower-Middle,61268,735,Good,4
+715,34,26-35,Female,AR,26325,Low,32456,562,Poor,1
+716,70,66+,Male,CA,68765,Upper-Middle,75608,798,Very Good,5
+717,26,26-35,Male,PA,38670,Lower-Middle,80894,630,Fair,1
+718,57,56-65,Female,WV,36528,Lower-Middle,109785,701,Good,3
+719,28,26-35,Male,OK,28163,Low,50872,689,Good,4
+720,56,56-65,Female,GA,36652,Lower-Middle,60949,600,Fair,3
+721,18,18-25,Male,MA,54427,Lower-Middle,96369,714,Good,2
+722,27,26-35,Female,CA,74198,Upper-Middle,16084,838,Excellent,3
+723,18,18-25,Male,NC,34904,Lower-Middle,46002,657,Fair,2
+724,55,46-55,Male,TN,97455,Upper-Middle,219213,616,Fair,2
+725,37,36-45,Female,CA,52181,Lower-Middle,26792,727,Good,2
+726,68,66+,Male,IN,27939,Low,11243,841,Excellent,5
+727,54,46-55,Female,CO,41957,Lower-Middle,151027,783,Very Good,3
+728,26,26-35,Female,KY,40102,Lower-Middle,57857,601,Fair,6
+729,61,56-65,Female,HI,62005,Upper-Middle,149968,651,Fair,9
+730,18,18-25,Male,WA,44061,Lower-Middle,107955,713,Good,4
+731,49,46-55,Male,NY,58503,Lower-Middle,37838,680,Good,4
+732,28,26-35,Female,NY,29478,Low,39224,675,Good,2
+733,29,26-35,Female,MT,40005,Lower-Middle,37694,737,Good,2
+734,70,66+,Male,WI,31901,Lower-Middle,16285,778,Very Good,4
+735,28,26-35,Female,FL,44046,Lower-Middle,57982,557,Poor,3
+736,61,56-65,Male,IL,35823,Lower-Middle,96691,732,Good,3
+737,29,26-35,Female,VA,44976,Lower-Middle,80109,717,Good,2
+738,28,26-35,Male,WI,40035,Lower-Middle,69241,684,Good,2
+739,31,26-35,Female,AR,50978,Lower-Middle,76898,574,Poor,2
+740,76,66+,Male,MI,34408,Lower-Middle,9107,701,Good,4
+741,22,18-25,Female,IL,2026,Low,1417,779,Very Good,1
+742,59,56-65,Male,FL,55571,Lower-Middle,93460,636,Fair,3
+743,26,26-35,Male,NH,53182,Lower-Middle,99550,623,Fair,1
+744,33,26-35,Male,WV,33944,Lower-Middle,53353,798,Very Good,4
+745,54,46-55,Male,MD,114318,High,328089,748,Very Good,3
+746,67,66+,Male,MI,28714,Low,12978,638,Fair,2
+747,41,36-45,Male,NV,59093,Lower-Middle,117325,737,Good,5
+748,39,36-45,Female,CA,51465,Lower-Middle,0,702,Good,2
+749,20,18-25,Male,NY,50776,Lower-Middle,19785,701,Good,1
+750,28,26-35,Female,PA,51391,Lower-Middle,84768,573,Poor,1
+751,53,46-55,Male,NJ,920,Low,1914,788,Very Good,3
+752,50,46-55,Female,FL,41420,Lower-Middle,0,691,Good,5
+753,52,46-55,Female,NE,34460,Lower-Middle,43936,692,Good,2
+754,41,36-45,Male,VA,37786,Lower-Middle,107692,693,Good,5
+755,21,18-25,Female,VA,42161,Lower-Middle,59210,672,Good,1
+756,30,26-35,Male,OH,51998,Lower-Middle,73575,640,Fair,1
+757,22,18-25,Female,SC,37253,Lower-Middle,63522,576,Poor,1
+758,49,46-55,Male,TX,27943,Low,18693,681,Good,4
+759,76,66+,Female,SC,32817,Lower-Middle,27209,705,Good,6
+760,62,56-65,Male,NH,38681,Lower-Middle,113190,663,Fair,5
+761,48,46-55,Male,AL,31553,Lower-Middle,63938,729,Good,3
+762,36,36-45,Male,WA,49993,Lower-Middle,52978,767,Very Good,3
+763,63,56-65,Male,OH,28828,Low,49793,687,Good,4
+764,77,66+,Female,NY,1,Low,0,673,Good,3
+765,31,26-35,Male,TX,63356,Upper-Middle,140107,704,Good,5
+766,33,26-35,Female,TX,57526,Lower-Middle,82715,812,Excellent,1
+767,36,36-45,Male,NJ,80794,Upper-Middle,3867,803,Excellent,2
+768,57,56-65,Female,MA,76274,Upper-Middle,102611,698,Good,2
+769,29,26-35,Female,WI,38861,Lower-Middle,62080,528,Poor,1
+770,32,26-35,Male,LA,45312,Lower-Middle,11788,681,Good,4
+771,63,56-65,Male,CA,43180,Lower-Middle,36832,764,Very Good,5
+772,25,18-25,Female,MN,60310,Upper-Middle,91017,647,Fair,6
+773,64,56-65,Female,CA,30747,Lower-Middle,51667,850,Excellent,4
+774,21,18-25,Male,CO,43617,Lower-Middle,16661,803,Excellent,3
+775,51,46-55,Female,WI,43386,Lower-Middle,2192,698,Good,3
+776,62,56-65,Female,WI,36465,Lower-Middle,12789,688,Good,1
+777,72,66+,Male,CA,65055,Upper-Middle,1676,736,Good,6
+778,21,18-25,Male,TX,36924,Lower-Middle,71952,701,Good,3
+779,34,26-35,Male,CA,43579,Lower-Middle,96994,795,Very Good,3
+780,54,46-55,Male,MN,53986,Lower-Middle,58381,748,Very Good,4
+781,21,18-25,Female,MA,97127,Upper-Middle,210206,660,Fair,2
+782,52,46-55,Male,CT,69604,Upper-Middle,47193,684,Good,4
+783,49,46-55,Female,TX,62019,Upper-Middle,85666,543,Poor,4
+784,19,18-25,Male,CA,32550,Lower-Middle,82878,746,Very Good,6
+785,30,26-35,Male,WV,36092,Lower-Middle,63276,679,Good,1
+786,55,46-55,Male,WA,48259,Lower-Middle,146774,721,Good,3
+787,42,36-45,Male,AR,31499,Lower-Middle,45661,782,Very Good,4
+788,36,36-45,Female,SC,31079,Lower-Middle,91845,605,Fair,2
+789,46,46-55,Male,FL,47395,Lower-Middle,41381,755,Very Good,2
+790,42,36-45,Male,NY,47542,Lower-Middle,2667,725,Good,3
+791,58,56-65,Male,VA,72510,Upper-Middle,44317,727,Good,4
+792,48,46-55,Male,CT,65736,Upper-Middle,206000,733,Good,3
+793,71,66+,Female,TX,19581,Low,21424,706,Good,3
+794,57,56-65,Male,ME,42411,Lower-Middle,111077,765,Very Good,2
+795,87,66+,Female,WA,55902,Lower-Middle,3385,531,Poor,1
+796,38,36-45,Male,PA,52844,Lower-Middle,0,826,Excellent,3
+797,46,46-55,Male,GA,37056,Lower-Middle,75730,753,Very Good,4
+798,44,36-45,Male,CA,40220,Lower-Middle,106171,718,Good,3
+799,81,66+,Male,CA,28644,Low,879,806,Excellent,7
+800,52,46-55,Female,CA,29673,Low,12950,788,Very Good,3
+801,61,56-65,Male,GA,46954,Lower-Middle,69753,578,Poor,4
+802,33,26-35,Male,WV,44534,Lower-Middle,107410,702,Good,4
+803,51,46-55,Male,CA,37963,Lower-Middle,102716,772,Very Good,4
+804,40,36-45,Female,TX,50329,Lower-Middle,76759,625,Fair,4
+805,44,36-45,Male,PA,36715,Lower-Middle,74022,547,Poor,4
+806,60,56-65,Male,FL,39521,Lower-Middle,61861,491,Poor,3
+807,78,66+,Female,SC,51014,Lower-Middle,23366,759,Very Good,4
+808,41,36-45,Male,UT,73067,Upper-Middle,6332,721,Good,3
+809,63,56-65,Female,CA,44183,Lower-Middle,89852,850,Excellent,4
+810,21,18-25,Male,OH,22922,Low,9004,694,Good,1
+811,28,26-35,Female,OH,84987,Upper-Middle,162718,600,Fair,2
+812,63,56-65,Female,MI,33728,Lower-Middle,107287,730,Good,3
+813,81,66+,Female,OH,11613,Low,427,790,Very Good,8
+814,47,46-55,Male,MO,48600,Lower-Middle,23992,791,Very Good,5
+815,58,56-65,Male,TN,60292,Upper-Middle,114223,531,Poor,1
+816,42,36-45,Female,MI,58034,Lower-Middle,129546,676,Good,2
+817,68,66+,Male,FL,43004,Lower-Middle,15304,761,Very Good,6
+818,51,46-55,Female,OK,29144,Low,35268,645,Fair,1
+819,46,46-55,Male,TX,25850,Low,56285,630,Fair,1
+820,28,26-35,Female,MI,37583,Lower-Middle,51633,782,Very Good,2
+821,20,18-25,Female,OH,41403,Lower-Middle,206131,776,Very Good,1
+822,61,56-65,Male,NY,101018,High,78115,748,Very Good,6
+823,30,26-35,Male,GA,32125,Lower-Middle,58712,733,Good,2
+824,80,66+,Female,FL,13596,Low,352,684,Good,4
+825,51,46-55,Male,PA,80526,Upper-Middle,117380,632,Fair,1
+826,36,36-45,Male,GA,43953,Lower-Middle,76915,607,Fair,1
+827,56,56-65,Female,AL,31533,Lower-Middle,42315,753,Very Good,3
+828,23,18-25,Female,CA,42711,Lower-Middle,48493,717,Good,1
+829,74,66+,Female,SC,23137,Low,4871,642,Fair,5
+830,18,18-25,Male,CA,39778,Lower-Middle,60850,702,Good,1
+831,42,36-45,Male,NJ,69747,Upper-Middle,80763,741,Very Good,4
+832,54,46-55,Male,FL,34947,Lower-Middle,49024,751,Very Good,3
+833,63,56-65,Male,IL,77961,Upper-Middle,39811,616,Fair,3
+834,22,18-25,Female,NJ,114692,High,91575,805,Excellent,2
+835,47,46-55,Male,NY,25434,Low,45540,712,Good,4
+836,56,56-65,Female,OH,37558,Lower-Middle,72514,778,Very Good,3
+837,30,26-35,Female,OH,47110,Lower-Middle,57159,804,Excellent,2
+838,52,46-55,Male,IN,30681,Lower-Middle,81680,746,Very Good,4
+839,20,18-25,Female,TX,65051,Upper-Middle,220951,703,Good,2
+840,49,46-55,Female,AL,31008,Lower-Middle,60527,713,Good,4
+841,62,56-65,Male,OH,37556,Lower-Middle,0,735,Good,6
+842,76,66+,Male,IN,21547,Low,16040,785,Very Good,5
+843,20,18-25,Male,AR,29051,Low,5819,774,Very Good,2
+844,19,18-25,Female,IL,28953,Low,3619,738,Good,2
+845,39,36-45,Female,FL,58774,Lower-Middle,94053,528,Poor,2
+846,46,46-55,Male,ID,33395,Lower-Middle,57774,588,Fair,2
+847,87,66+,Female,FL,22894,Low,1501,767,Very Good,5
+848,45,36-45,Female,NY,63815,Upper-Middle,4832,699,Good,6
+849,57,56-65,Female,CA,54963,Lower-Middle,105623,675,Good,4
+850,28,26-35,Male,NY,35940,Lower-Middle,54354,595,Fair,3
+851,62,56-65,Male,CA,36911,Lower-Middle,93367,724,Good,4
+852,34,26-35,Female,IN,44838,Lower-Middle,109951,561,Poor,1
+853,59,56-65,Female,CA,92785,Upper-Middle,122254,786,Very Good,6
+854,67,66+,Male,OH,34985,Lower-Middle,29409,723,Good,6
+855,39,36-45,Male,IN,42086,Lower-Middle,79530,784,Very Good,4
+856,45,36-45,Female,FL,38872,Lower-Middle,94970,663,Fair,4
+857,50,46-55,Female,OR,48295,Lower-Middle,109558,707,Good,3
+858,28,26-35,Female,AL,39708,Lower-Middle,113715,717,Good,3
+859,56,56-65,Female,NY,45416,Lower-Middle,82611,713,Good,1
+860,36,36-45,Female,CA,28007,Low,0,691,Good,4
+861,48,46-55,Female,IL,38554,Lower-Middle,47186,708,Good,1
+862,27,26-35,Female,VA,37384,Lower-Middle,120327,706,Good,2
+863,29,26-35,Female,NJ,63684,Upper-Middle,96864,709,Good,5
+864,92,66+,Female,CA,26546,Low,2480,689,Good,6
+865,35,26-35,Female,MO,28472,Low,42750,508,Poor,1
+866,49,46-55,Male,IL,31957,Lower-Middle,12347,771,Very Good,6
+867,61,56-65,Male,CA,29195,Low,64881,743,Very Good,3
+868,36,36-45,Male,CA,36372,Lower-Middle,79220,684,Good,2
+869,48,46-55,Female,GA,93417,Upper-Middle,115916,714,Good,3
+870,40,36-45,Female,NM,29854,Low,66044,674,Good,3
+871,43,36-45,Female,CA,25207,Low,34107,685,Good,1
+872,25,18-25,Male,PA,32966,Lower-Middle,73741,707,Good,1
+873,66,66+,Male,FL,47972,Lower-Middle,0,748,Very Good,5
+874,50,46-55,Male,NC,49350,Lower-Middle,20942,713,Good,6
+875,39,36-45,Female,FL,30383,Lower-Middle,58466,609,Fair,2
+876,44,36-45,Female,KY,38568,Lower-Middle,66300,756,Very Good,4
+877,35,26-35,Female,MN,41141,Lower-Middle,81016,706,Good,3
+878,24,18-25,Male,IA,38526,Lower-Middle,60556,778,Very Good,1
+879,35,26-35,Female,IN,34181,Lower-Middle,50668,764,Very Good,2
+880,83,66+,Male,NC,41763,Lower-Middle,2279,714,Good,5
+881,50,46-55,Male,CA,86113,Upper-Middle,177353,713,Good,6
+882,52,46-55,Male,AR,45625,Lower-Middle,81136,662,Fair,1
+883,62,56-65,Female,WA,101193,High,124771,747,Very Good,3
+884,64,56-65,Male,IL,37898,Lower-Middle,36994,716,Good,5
+885,82,66+,Female,PA,52315,Lower-Middle,3174,695,Good,4
+886,28,26-35,Female,NJ,80060,Upper-Middle,0,689,Good,2
+887,89,66+,Female,IL,50341,Lower-Middle,3270,735,Good,5
+888,47,46-55,Female,NJ,50790,Lower-Middle,3547,726,Good,4
+889,33,26-35,Female,TX,37384,Lower-Middle,49182,713,Good,3
+890,58,56-65,Male,PA,35274,Lower-Middle,35234,708,Good,3
+891,30,26-35,Male,IL,47300,Lower-Middle,93788,784,Very Good,1
+892,35,26-35,Male,CA,26201,Low,42551,655,Fair,1
+893,62,56-65,Female,CA,20783,Low,23623,699,Good,3
+894,33,26-35,Male,TX,43968,Lower-Middle,71218,644,Fair,1
+895,27,26-35,Male,GA,33778,Lower-Middle,10058,757,Very Good,1
+896,48,46-55,Female,OH,38611,Lower-Middle,93255,755,Very Good,5
+897,68,66+,Female,SD,39082,Lower-Middle,16870,722,Good,4
+898,29,26-35,Female,MI,47891,Lower-Middle,114299,629,Fair,1
+899,47,46-55,Female,NY,52063,Lower-Middle,87549,753,Very Good,2
+900,23,18-25,Male,NY,49342,Lower-Middle,56137,703,Good,1
+901,49,46-55,Female,CA,39700,Lower-Middle,59062,701,Good,3
+902,23,18-25,Male,CA,68767,Upper-Middle,119831,723,Good,3
+903,65,56-65,Male,NV,39543,Lower-Middle,53182,776,Very Good,3
+904,41,36-45,Female,AZ,46209,Lower-Middle,56034,710,Good,4
+905,36,36-45,Male,PA,64419,Upper-Middle,183210,711,Good,1
+906,50,46-55,Female,FL,33098,Lower-Middle,59605,775,Very Good,3
+907,57,56-65,Female,TX,30495,Lower-Middle,70825,773,Very Good,4
+908,45,36-45,Male,TX,67170,Upper-Middle,114251,489,Poor,3
+909,39,36-45,Female,LA,35501,Lower-Middle,78801,693,Good,4
+910,46,46-55,Female,PA,54124,Lower-Middle,0,727,Good,2
+911,65,56-65,Male,NY,40957,Lower-Middle,64144,608,Fair,4
+912,42,36-45,Female,MD,72478,Upper-Middle,63078,728,Good,2
+913,70,66+,Female,FL,26574,Low,5244,689,Good,3
+914,78,66+,Female,MS,23821,Low,22427,613,Fair,8
+915,55,46-55,Female,NY,38165,Lower-Middle,45891,719,Good,1
+916,68,66+,Female,MI,39238,Lower-Middle,85457,702,Good,4
+917,19,18-25,Female,MA,51601,Lower-Middle,79143,745,Very Good,1
+918,44,36-45,Female,NC,32491,Lower-Middle,24515,682,Good,3
+919,19,18-25,Female,MA,48308,Lower-Middle,106571,703,Good,4
+920,49,46-55,Female,FL,41800,Lower-Middle,67836,699,Good,6
+921,27,26-35,Female,IA,60510,Upper-Middle,23196,790,Very Good,3
+922,24,18-25,Female,WI,61760,Upper-Middle,163824,590,Fair,2
+923,85,66+,Female,NM,25066,Low,424,695,Good,7
+924,78,66+,Female,TN,44469,Lower-Middle,12777,733,Good,5
+925,21,18-25,Female,IN,44842,Lower-Middle,54189,500,Poor,4
+926,18,18-25,Male,SC,29169,Low,37230,754,Very Good,1
+927,21,18-25,Female,OR,87372,Upper-Middle,40547,792,Very Good,3
+928,46,46-55,Male,VA,54881,Lower-Middle,3584,700,Good,4
+929,49,46-55,Female,FL,31497,Lower-Middle,30805,702,Good,3
+930,24,18-25,Male,CA,28703,Low,94364,560,Poor,1
+931,35,26-35,Female,TN,56350,Lower-Middle,120125,808,Excellent,4
+932,31,26-35,Male,MD,67886,Upper-Middle,7137,803,Excellent,4
+933,54,46-55,Male,PA,36711,Lower-Middle,47490,687,Good,4
+934,61,56-65,Female,IL,31505,Lower-Middle,59730,655,Fair,4
+935,46,46-55,Male,AZ,49068,Lower-Middle,123937,530,Poor,2
+936,41,36-45,Female,NM,28704,Low,103891,700,Good,2
+937,82,66+,Male,CA,26126,Low,1213,697,Good,5
+938,50,46-55,Male,KY,44587,Lower-Middle,17148,775,Very Good,6
+939,25,18-25,Male,AR,46822,Lower-Middle,0,810,Excellent,4
+940,40,36-45,Male,IL,44452,Lower-Middle,12409,711,Good,5
+941,37,36-45,Male,PA,33108,Lower-Middle,44044,829,Excellent,2
+942,25,18-25,Male,NC,33534,Lower-Middle,76166,761,Very Good,3
+943,47,46-55,Female,IL,29564,Low,54279,694,Good,2
+944,67,66+,Female,CA,46945,Lower-Middle,17835,682,Good,4
+945,48,46-55,Male,NC,75682,Upper-Middle,37163,727,Good,5
+946,61,56-65,Female,NC,39661,Lower-Middle,74740,850,Excellent,4
+947,20,18-25,Male,ME,48495,Lower-Middle,97630,773,Very Good,3
+948,67,66+,Female,CA,19199,Low,15091,715,Good,3
+949,75,66+,Male,MN,40696,Lower-Middle,15691,801,Excellent,6
+950,31,26-35,Female,VA,96661,Upper-Middle,73401,721,Good,2
+951,55,46-55,Female,NC,26546,Low,32087,686,Good,5
+952,34,26-35,Female,CA,33934,Lower-Middle,42945,622,Fair,3
+953,50,46-55,Female,WI,61008,Upper-Middle,0,781,Very Good,4
+954,33,26-35,Male,FL,42808,Lower-Middle,117011,758,Very Good,1
+955,21,18-25,Male,VA,90104,Upper-Middle,85204,787,Very Good,2
+956,55,46-55,Female,CA,35553,Lower-Middle,76077,623,Fair,1
+957,26,26-35,Male,VA,53554,Lower-Middle,119852,689,Good,2
+958,33,26-35,Male,ME,59613,Lower-Middle,36199,763,Very Good,4
+959,91,66+,Female,NY,17150,Low,375,807,Excellent,6
+960,67,66+,Male,CA,30962,Lower-Middle,15336,743,Very Good,5
+961,59,56-65,Male,OH,37927,Lower-Middle,79299,712,Good,1
+962,33,26-35,Female,NY,69706,Upper-Middle,97070,785,Very Good,2
+963,18,18-25,Female,TX,43253,Lower-Middle,56323,718,Good,1
+964,18,18-25,Male,MO,36101,Lower-Middle,46425,778,Very Good,2
+965,53,46-55,Female,LA,40363,Lower-Middle,111112,711,Good,4
+966,83,66+,Male,NY,80493,Upper-Middle,2027,610,Fair,5
+967,78,66+,Female,CA,39263,Lower-Middle,24246,645,Fair,4
+968,67,66+,Female,TX,78329,Upper-Middle,40161,720,Good,3
+969,42,36-45,Male,TX,25585,Low,59827,702,Good,4
+970,62,56-65,Male,NC,46256,Lower-Middle,106753,650,Fair,3
+971,28,26-35,Male,WA,39354,Lower-Middle,26700,685,Good,2
+972,35,26-35,Male,TX,60746,Upper-Middle,88165,706,Good,4
+973,51,46-55,Female,TX,61901,Upper-Middle,29627,726,Good,7
+974,26,26-35,Female,IN,43454,Lower-Middle,79295,774,Very Good,2
+975,43,36-45,Male,NY,45789,Lower-Middle,94014,695,Good,4
+976,56,56-65,Male,NY,52841,Lower-Middle,36288,733,Good,5
+977,23,18-25,Female,SC,37717,Lower-Middle,60367,688,Good,3
+978,22,18-25,Female,OH,51613,Lower-Middle,62635,649,Fair,2
+979,42,36-45,Female,CA,29835,Low,46702,618,Fair,7
+980,78,66+,Male,MI,62103,Upper-Middle,33545,509,Poor,4
+981,51,46-55,Female,MO,42749,Lower-Middle,53471,728,Good,4
+982,38,36-45,Female,TX,69171,Upper-Middle,102537,622,Fair,1
+983,98,66+,Female,HI,42306,Lower-Middle,472,725,Good,5
+984,29,26-35,Female,CA,42150,Lower-Middle,39663,750,Very Good,3
+985,23,18-25,Female,MD,47589,Lower-Middle,114020,763,Very Good,4
+986,68,66+,Male,NC,23993,Low,2573,714,Good,5
+987,52,46-55,Female,MI,42701,Lower-Middle,53696,701,Good,4
+988,41,36-45,Female,CA,56320,Lower-Middle,84614,792,Very Good,3
+989,59,56-65,Male,MI,31550,Lower-Middle,26738,710,Good,3
+990,56,56-65,Male,NC,32418,Lower-Middle,84507,758,Very Good,4
+991,47,46-55,Male,CA,32847,Lower-Middle,3230,785,Very Good,3
+992,40,36-45,Male,TX,65053,Upper-Middle,83571,775,Very Good,2
+993,72,66+,Male,CA,2422,Low,810,632,Fair,2
+994,36,36-45,Female,OH,32522,Lower-Middle,28260,769,Very Good,2
+995,43,36-45,Female,GA,36315,Lower-Middle,0,824,Excellent,3
+996,64,56-65,Female,PA,39206,Lower-Middle,9219,605,Fair,4
+997,27,26-35,Female,VA,33641,Lower-Middle,40696,743,Very Good,1
+998,56,56-65,Female,NJ,40848,Lower-Middle,146608,706,Good,2
+999,47,46-55,Female,FL,34112,Lower-Middle,39842,725,Good,4
+1000,26,26-35,Female,TX,128775,High,232506,655,Fair,1
+1001,50,46-55,Male,NY,104045,High,0,734,Good,3
+1002,58,56-65,Female,TN,51316,Lower-Middle,0,759,Very Good,6
+1003,66,66+,Female,MI,48690,Lower-Middle,36262,701,Good,6
+1004,18,18-25,Female,PA,35311,Lower-Middle,44783,684,Good,5
+1005,42,36-45,Female,FL,27354,Low,42226,799,Very Good,1
+1006,56,56-65,Female,NY,63796,Upper-Middle,82173,730,Good,3
+1007,28,26-35,Male,NC,66237,Upper-Middle,146680,785,Very Good,1
+1008,58,56-65,Female,NC,55569,Lower-Middle,76181,698,Good,6
+1009,40,36-45,Male,MN,67226,Upper-Middle,128174,729,Good,3
+1010,43,36-45,Female,MA,106159,High,144773,703,Good,5
+1011,68,66+,Female,NY,50258,Lower-Middle,0,686,Good,3
+1012,44,36-45,Female,CA,54981,Lower-Middle,121701,737,Good,1
+1013,59,56-65,Male,FL,35590,Lower-Middle,92603,720,Good,4
+1014,41,36-45,Male,IL,49967,Lower-Middle,58582,712,Good,4
+1015,30,26-35,Female,OR,37610,Lower-Middle,64933,586,Fair,1
+1016,31,26-35,Female,PA,50599,Lower-Middle,83732,791,Very Good,2
+1017,64,56-65,Male,NY,66885,Upper-Middle,144703,698,Good,7
+1018,61,56-65,Female,NJ,63781,Upper-Middle,111808,654,Fair,1
+1019,49,46-55,Female,OK,94733,Upper-Middle,0,707,Good,5
+1020,49,46-55,Male,MO,24598,Low,23019,695,Good,4
+1021,46,46-55,Male,PA,36440,Lower-Middle,30574,745,Very Good,2
+1022,24,18-25,Male,NC,31693,Lower-Middle,98206,719,Good,1
+1023,19,18-25,Female,CA,27494,Low,26097,724,Good,1
+1024,65,56-65,Male,NY,20614,Low,14042,711,Good,2
+1025,82,66+,Female,TX,66999,Upper-Middle,3140,730,Good,5
+1026,41,36-45,Male,FL,38874,Lower-Middle,64474,672,Good,3
+1027,25,18-25,Female,CO,48017,Lower-Middle,95549,711,Good,1
+1028,47,46-55,Female,LA,44789,Lower-Middle,94789,638,Fair,1
+1029,35,26-35,Female,TX,34143,Lower-Middle,49839,648,Fair,4
+1030,83,66+,Male,NM,16611,Low,1797,696,Good,5
+1031,36,36-45,Female,WA,38496,Lower-Middle,64688,642,Fair,2
+1032,78,66+,Male,OK,31046,Lower-Middle,11436,706,Good,6
+1033,37,36-45,Male,VA,123540,High,236393,764,Very Good,4
+1034,65,56-65,Female,TN,39809,Lower-Middle,0,775,Very Good,4
+1035,64,56-65,Male,GA,34576,Lower-Middle,81087,683,Good,1
+1036,74,66+,Female,NY,110570,High,5700,766,Very Good,8
+1037,28,26-35,Male,WI,34262,Lower-Middle,60506,846,Excellent,2
+1038,40,36-45,Male,AL,40473,Lower-Middle,54899,689,Good,4
+1039,33,26-35,Female,GA,96744,Upper-Middle,128122,838,Excellent,5
+1040,48,46-55,Male,MS,31231,Lower-Middle,40499,681,Good,3
+1041,57,56-65,Female,TX,66427,Upper-Middle,103290,779,Very Good,5
+1042,31,26-35,Male,TX,23469,Low,22976,731,Good,3
+1043,30,26-35,Male,NJ,26519,Low,63979,663,Fair,3
+1044,40,36-45,Female,AL,34799,Lower-Middle,72749,793,Very Good,2
+1045,28,26-35,Female,OR,35194,Lower-Middle,56006,620,Fair,1
+1046,28,26-35,Female,IL,39679,Lower-Middle,93772,758,Very Good,2
+1047,67,66+,Male,CA,31287,Lower-Middle,25844,728,Good,4
+1048,26,26-35,Male,TX,38805,Lower-Middle,54466,614,Fair,2
+1049,43,36-45,Female,DC,48810,Lower-Middle,0,799,Very Good,3
+1050,62,56-65,Male,ID,45450,Lower-Middle,85218,686,Good,3
+1051,25,18-25,Female,NJ,34201,Lower-Middle,42895,731,Good,1
+1052,53,46-55,Female,CA,34137,Lower-Middle,80467,671,Good,4
+1053,67,66+,Male,CA,28357,Low,10400,628,Fair,2
+1054,30,26-35,Female,TX,32343,Lower-Middle,39656,683,Good,3
+1055,18,18-25,Female,CA,42142,Lower-Middle,116857,713,Good,2
+1056,30,26-35,Male,NC,32985,Lower-Middle,32764,740,Very Good,2
+1057,82,66+,Male,NY,23572,Low,216,590,Fair,2
+1058,25,18-25,Female,MA,28862,Low,20944,751,Very Good,2
+1059,76,66+,Female,SD,31145,Lower-Middle,5132,689,Good,4
+1060,64,56-65,Female,CA,26535,Low,93592,724,Good,5
+1061,58,56-65,Female,PA,39796,Lower-Middle,9452,729,Good,5
+1062,71,66+,Male,WY,51703,Lower-Middle,5371,722,Good,7
+1063,66,66+,Male,MI,31175,Lower-Middle,5846,711,Good,5
+1064,89,66+,Male,IL,38761,Lower-Middle,69,760,Very Good,7
+1065,86,66+,Male,FL,33291,Lower-Middle,695,714,Good,2
+1066,40,36-45,Female,FL,52630,Lower-Middle,68559,725,Good,4
+1067,73,66+,Male,CA,26481,Low,10392,705,Good,1
+1068,24,18-25,Male,IL,2370,Low,4397,581,Fair,1
+1069,59,56-65,Male,AL,43021,Lower-Middle,86014,725,Good,4
+1070,18,18-25,Male,MA,44466,Lower-Middle,3096,709,Good,2
+1071,50,46-55,Male,FL,42886,Lower-Middle,60474,604,Fair,1
+1072,35,26-35,Male,IL,37843,Lower-Middle,40003,697,Good,3
+1073,34,26-35,Male,NC,48398,Lower-Middle,138998,642,Fair,3
+1074,33,26-35,Female,MI,28181,Low,37929,682,Good,2
+1075,48,46-55,Female,TN,37422,Lower-Middle,127116,681,Good,5
+1076,24,18-25,Female,CA,91237,Upper-Middle,231619,594,Fair,1
+1077,59,56-65,Male,MN,43913,Lower-Middle,83944,676,Good,4
+1078,37,36-45,Male,IN,44550,Lower-Middle,117302,761,Very Good,3
+1079,75,66+,Male,FL,42806,Lower-Middle,20432,726,Good,6
+1080,63,56-65,Female,FL,53702,Lower-Middle,85160,606,Fair,1
+1081,86,66+,Female,TN,38273,Lower-Middle,1658,765,Very Good,6
+1082,29,26-35,Female,TN,51303,Lower-Middle,106248,688,Good,3
+1083,44,36-45,Female,GA,35775,Lower-Middle,67263,773,Very Good,1
+1084,71,66+,Female,CO,67186,Upper-Middle,29682,692,Good,1
+1085,47,46-55,Male,OH,46763,Lower-Middle,65106,696,Good,3
+1086,62,56-65,Male,TX,29110,Low,23504,699,Good,3
+1087,90,66+,Male,NJ,41831,Lower-Middle,1100,615,Fair,1
+1088,42,36-45,Female,PA,49117,Lower-Middle,42380,769,Very Good,3
+1089,69,66+,Female,WI,68930,Upper-Middle,72619,768,Very Good,4
+1090,68,66+,Female,SC,20334,Low,9544,684,Good,2
+1091,43,36-45,Female,NY,24917,Low,36101,693,Good,2
+1092,39,36-45,Female,IL,44344,Lower-Middle,82822,744,Very Good,3
+1093,38,36-45,Female,IL,34311,Lower-Middle,61776,705,Good,2
+1094,57,56-65,Male,WV,35239,Lower-Middle,43270,726,Good,1
+1095,55,46-55,Male,CA,37147,Lower-Middle,0,703,Good,3
+1096,50,46-55,Female,OR,34671,Lower-Middle,55643,786,Very Good,6
+1097,57,56-65,Male,MD,61173,Upper-Middle,71422,692,Good,3
+1098,55,46-55,Female,CA,47643,Lower-Middle,45706,764,Very Good,8
+1099,60,56-65,Female,AZ,34895,Lower-Middle,56622,820,Excellent,4
+1100,64,56-65,Female,TX,1785,Low,2892,732,Good,3
+1101,98,66+,Male,CA,33869,Lower-Middle,370,821,Excellent,7
+1102,77,66+,Female,GA,31066,Lower-Middle,20902,712,Good,4
+1103,37,36-45,Female,TX,55172,Lower-Middle,96779,629,Fair,3
+1104,54,46-55,Female,NE,46956,Lower-Middle,94340,610,Fair,2
+1105,53,46-55,Male,AZ,74012,Upper-Middle,93119,681,Good,2
+1106,32,26-35,Male,TX,40887,Lower-Middle,50734,688,Good,4
+1107,32,26-35,Male,PA,34531,Lower-Middle,60156,703,Good,4
+1108,18,18-25,Female,NY,53995,Lower-Middle,154800,673,Good,1
+1109,68,66+,Female,GA,63502,Upper-Middle,24100,638,Fair,7
+1110,51,46-55,Male,TX,33178,Lower-Middle,92366,671,Good,2
+1111,84,66+,Male,FL,44690,Lower-Middle,2249,733,Good,5
+1112,56,56-65,Female,MS,39409,Lower-Middle,52076,599,Fair,1
+1113,19,18-25,Male,FL,33080,Lower-Middle,55066,692,Good,3
+1114,54,46-55,Male,GA,89152,Upper-Middle,162012,675,Good,1
+1115,70,66+,Female,MN,27772,Low,14408,788,Very Good,4
+1116,66,66+,Male,CA,44137,Lower-Middle,22392,626,Fair,2
+1117,66,66+,Female,NC,30265,Lower-Middle,36789,814,Excellent,4
+1118,55,46-55,Male,TX,37534,Lower-Middle,99840,706,Good,3
+1119,21,18-25,Male,AZ,32345,Lower-Middle,61066,730,Good,3
+1120,38,36-45,Male,IA,27183,Low,58323,637,Fair,1
+1121,52,46-55,Female,MI,38487,Lower-Middle,49725,691,Good,3
+1122,69,66+,Female,IA,33642,Lower-Middle,20874,593,Fair,5
+1123,51,46-55,Female,TX,34302,Lower-Middle,84935,651,Fair,3
+1124,31,26-35,Female,TX,42754,Lower-Middle,60172,656,Fair,1
+1125,24,18-25,Female,PA,51045,Lower-Middle,127864,772,Very Good,2
+1126,84,66+,Male,MD,24055,Low,0,733,Good,7
+1127,28,26-35,Male,CA,45021,Lower-Middle,77559,689,Good,1
+1128,18,18-25,Male,PA,46878,Lower-Middle,60121,578,Poor,1
+1129,82,66+,Female,CT,22726,Low,1692,784,Very Good,6
+1130,49,46-55,Male,CA,34449,Lower-Middle,36540,686,Good,3
+1131,36,36-45,Male,MO,28334,Low,0,700,Good,3
+1132,31,26-35,Female,WA,57166,Lower-Middle,111755,737,Good,2
+1133,59,56-65,Female,IN,35854,Lower-Middle,49101,850,Excellent,2
+1134,39,36-45,Female,CA,44958,Lower-Middle,91549,787,Very Good,1
+1135,62,56-65,Female,NC,28988,Low,13351,694,Good,4
+1136,53,46-55,Male,OH,33729,Lower-Middle,0,763,Very Good,4
+1137,31,26-35,Male,VA,59455,Lower-Middle,96224,557,Poor,1
+1138,18,18-25,Male,NY,47543,Lower-Middle,124177,667,Fair,1
+1139,39,36-45,Female,VA,54273,Lower-Middle,110237,789,Very Good,4
+1140,77,66+,Female,NV,38692,Lower-Middle,8902,596,Fair,5
+1141,54,46-55,Male,PA,29898,Low,19719,714,Good,5
+1142,22,18-25,Female,FL,31443,Lower-Middle,52826,676,Good,1
+1143,43,36-45,Male,MO,35538,Lower-Middle,71591,747,Very Good,1
+1144,43,36-45,Male,TX,50174,Lower-Middle,145300,643,Fair,4
+1145,24,18-25,Male,VA,87436,Upper-Middle,135294,845,Excellent,2
+1146,33,26-35,Female,CA,61846,Upper-Middle,12525,722,Good,4
+1147,22,18-25,Female,IL,24369,Low,37437,575,Poor,4
+1148,26,26-35,Male,TX,44470,Lower-Middle,66413,721,Good,3
+1149,28,26-35,Male,FL,42806,Lower-Middle,49194,712,Good,3
+1150,69,66+,Female,CA,99825,Upper-Middle,4344,685,Good,4
+1151,44,36-45,Female,OH,39898,Lower-Middle,43630,682,Good,3
+1152,39,36-45,Female,IN,49412,Lower-Middle,42378,830,Excellent,3
+1153,22,18-25,Male,TN,33337,Lower-Middle,71679,712,Good,1
+1154,58,56-65,Female,MA,17078,Low,25245,719,Good,4
+1155,28,26-35,Female,AZ,43826,Lower-Middle,84935,823,Excellent,1
+1156,51,46-55,Female,CA,97845,Upper-Middle,255288,836,Excellent,4
+1157,56,56-65,Male,TN,36285,Lower-Middle,67244,759,Very Good,5
+1158,31,26-35,Female,CO,50666,Lower-Middle,102318,617,Fair,3
+1159,51,46-55,Female,MN,82298,Upper-Middle,182301,789,Very Good,6
+1160,25,18-25,Male,TX,64917,Upper-Middle,102747,689,Good,4
+1161,26,26-35,Female,FL,36909,Lower-Middle,102869,821,Excellent,1
+1162,24,18-25,Male,CA,71054,Upper-Middle,106595,767,Very Good,2
+1163,83,66+,Female,LA,16620,Low,1140,804,Excellent,8
+1164,45,36-45,Female,CA,57027,Lower-Middle,21798,709,Good,4
+1165,18,18-25,Male,NE,28950,Low,61297,609,Fair,1
+1166,50,46-55,Female,GA,1426,Low,3154,680,Good,3
+1167,55,46-55,Male,MS,31308,Lower-Middle,59817,742,Very Good,7
+1168,26,26-35,Male,FL,29658,Low,45750,589,Fair,2
+1169,48,46-55,Male,NY,46408,Lower-Middle,0,847,Excellent,7
+1170,39,36-45,Female,NC,23307,Low,31064,789,Very Good,1
+1171,31,26-35,Female,TN,29433,Low,61260,693,Good,3
+1172,27,26-35,Male,NV,61222,Upper-Middle,142541,779,Very Good,1
+1173,46,46-55,Female,FL,39770,Lower-Middle,72827,711,Good,4
+1174,48,46-55,Female,NV,78180,Upper-Middle,102759,740,Very Good,3
+1175,29,26-35,Male,LA,47317,Lower-Middle,42433,680,Good,2
+1176,41,36-45,Male,ID,30432,Lower-Middle,101847,624,Fair,1
+1177,39,36-45,Male,MO,37165,Lower-Middle,0,771,Very Good,3
+1178,46,46-55,Male,OH,36405,Lower-Middle,31815,715,Good,2
+1179,30,26-35,Male,MD,47916,Lower-Middle,69567,612,Fair,1
+1180,52,46-55,Male,WI,40177,Lower-Middle,47012,698,Good,4
+1181,49,46-55,Female,WA,39969,Lower-Middle,68456,713,Good,3
+1182,44,36-45,Male,FL,44816,Lower-Middle,63043,625,Fair,1
+1183,32,26-35,Male,CA,50658,Lower-Middle,72806,764,Very Good,2
+1184,21,18-25,Male,TN,41260,Lower-Middle,80574,682,Good,2
+1185,54,46-55,Male,NY,42332,Lower-Middle,75213,616,Fair,6
+1186,74,66+,Female,IL,23011,Low,30510,721,Good,3
+1187,64,56-65,Male,PA,87317,Upper-Middle,41998,773,Very Good,1
+1188,72,66+,Female,CO,25243,Low,18006,730,Good,6
+1189,24,18-25,Female,CA,58893,Lower-Middle,113715,666,Fair,3
+1190,24,18-25,Male,NJ,64319,Upper-Middle,0,757,Very Good,3
+1191,47,46-55,Male,TX,36319,Lower-Middle,44737,730,Good,4
+1192,39,36-45,Male,VA,43192,Lower-Middle,33517,739,Good,3
+1193,46,46-55,Male,MS,45476,Lower-Middle,67636,506,Poor,1
+1194,31,26-35,Male,WY,41297,Lower-Middle,34703,685,Good,2
+1195,45,36-45,Female,CT,54384,Lower-Middle,69717,622,Fair,3
+1196,43,36-45,Female,PA,32770,Lower-Middle,103262,641,Fair,4
+1197,26,26-35,Female,CA,61104,Upper-Middle,79486,721,Good,4
+1198,55,46-55,Male,WI,47334,Lower-Middle,87775,701,Good,3
+1199,67,66+,Female,PA,43828,Lower-Middle,60231,711,Good,3
+1200,47,46-55,Female,OH,33883,Lower-Middle,50616,524,Poor,1
+1201,44,36-45,Male,AL,50993,Lower-Middle,75783,675,Good,5
+1202,48,46-55,Male,NY,41690,Lower-Middle,69869,763,Very Good,2
+1203,29,26-35,Female,IL,54122,Lower-Middle,166903,796,Very Good,4
+1204,56,56-65,Male,MD,53966,Lower-Middle,135478,747,Very Good,1
+1205,20,18-25,Female,PA,53569,Lower-Middle,79540,623,Fair,1
+1206,67,66+,Male,AZ,65362,Upper-Middle,27745,743,Very Good,6
+1207,58,56-65,Male,OH,27035,Low,58050,595,Fair,2
+1208,38,36-45,Male,OH,38663,Lower-Middle,59053,686,Good,3
+1209,22,18-25,Female,CA,44740,Lower-Middle,103896,651,Fair,1
+1210,43,36-45,Female,LA,38994,Lower-Middle,0,728,Good,4
+1211,54,46-55,Female,OH,38318,Lower-Middle,93284,748,Very Good,6
+1212,42,36-45,Female,TX,37623,Lower-Middle,923,726,Good,6
+1213,32,26-35,Male,CA,2365,Low,0,769,Very Good,3
+1214,50,46-55,Female,CA,48428,Lower-Middle,72566,654,Fair,1
+1215,58,56-65,Male,CA,31177,Lower-Middle,18859,689,Good,5
+1216,38,36-45,Male,MS,38223,Lower-Middle,30756,725,Good,4
+1217,53,46-55,Female,GA,61490,Upper-Middle,116180,647,Fair,1
+1218,41,36-45,Female,GA,92017,Upper-Middle,157723,703,Good,3
+1219,43,36-45,Male,TX,25109,Low,92,850,Excellent,3
+1220,44,36-45,Male,MO,40522,Lower-Middle,81572,801,Excellent,5
+1221,46,46-55,Male,TX,63030,Upper-Middle,93406,791,Very Good,5
+1222,61,56-65,Male,IN,37362,Lower-Middle,21600,703,Good,4
+1223,52,46-55,Male,NY,55059,Lower-Middle,162462,735,Good,3
+1224,49,46-55,Female,WA,67743,Upper-Middle,67132,752,Very Good,3
+1225,33,26-35,Female,TN,41069,Lower-Middle,64073,644,Fair,3
+1226,34,26-35,Male,GA,32245,Lower-Middle,43097,625,Fair,1
+1227,44,36-45,Female,SC,84365,Upper-Middle,113529,796,Very Good,5
+1228,55,46-55,Male,MD,62791,Upper-Middle,193215,692,Good,4
+1229,31,26-35,Male,ME,45433,Lower-Middle,91998,523,Poor,1
+1230,36,36-45,Male,NY,41537,Lower-Middle,128044,582,Fair,1
+1231,58,56-65,Male,CA,119308,High,89328,789,Very Good,6
+1232,25,18-25,Female,FL,17310,Low,21853,749,Very Good,2
+1233,75,66+,Male,MA,41316,Lower-Middle,22629,826,Excellent,1
+1234,52,46-55,Male,MI,37686,Lower-Middle,41173,739,Good,4
+1235,62,56-65,Female,NE,35519,Lower-Middle,111115,744,Very Good,1
+1236,90,66+,Female,FL,31805,Lower-Middle,614,755,Very Good,6
+1237,43,36-45,Female,TX,76288,Upper-Middle,120771,710,Good,4
+1238,49,46-55,Female,WI,34255,Lower-Middle,36094,708,Good,4
+1239,24,18-25,Male,OR,37443,Lower-Middle,0,745,Very Good,1
+1240,51,46-55,Male,AZ,50980,Lower-Middle,0,754,Very Good,4
+1241,70,66+,Female,FL,29164,Low,19851,625,Fair,4
+1242,77,66+,Female,PA,30457,Lower-Middle,19314,520,Poor,5
+1243,47,46-55,Female,CA,27763,Low,59691,691,Good,1
+1244,29,26-35,Male,CA,40988,Lower-Middle,89801,540,Poor,3
+1245,68,66+,Male,NC,38637,Lower-Middle,30595,643,Fair,4
+1246,46,46-55,Male,NJ,66489,Upper-Middle,45974,729,Good,4
+1247,51,46-55,Male,MO,50936,Lower-Middle,88447,681,Good,3
+1248,41,36-45,Female,MT,40012,Lower-Middle,59472,849,Excellent,4
+1249,50,46-55,Male,IA,34456,Lower-Middle,54634,752,Very Good,4
+1250,59,56-65,Male,TX,53357,Lower-Middle,114266,690,Good,5
+1251,28,26-35,Male,NY,34629,Lower-Middle,34484,721,Good,3
+1252,34,26-35,Male,OK,36983,Lower-Middle,58895,768,Very Good,4
+1253,49,46-55,Female,CA,29621,Low,0,730,Good,3
+1254,64,56-65,Male,MI,41002,Lower-Middle,97188,685,Good,6
+1255,52,46-55,Male,GA,30011,Lower-Middle,84166,589,Fair,1
+1256,32,26-35,Female,IL,50137,Lower-Middle,90747,679,Good,1
+1257,21,18-25,Male,TX,55166,Lower-Middle,70698,689,Good,1
+1258,84,66+,Male,CA,17016,Low,691,714,Good,4
+1259,22,18-25,Male,OK,32557,Lower-Middle,60053,637,Fair,2
+1260,47,46-55,Male,GA,43954,Lower-Middle,60913,744,Very Good,3
+1261,56,56-65,Male,IN,63439,Upper-Middle,199706,786,Very Good,2
+1262,73,66+,Male,MO,34067,Lower-Middle,17902,628,Fair,1
+1263,47,46-55,Male,IL,35699,Lower-Middle,63264,687,Good,5
+1264,28,26-35,Male,OH,74644,Upper-Middle,204251,792,Very Good,3
+1265,26,26-35,Female,MI,42348,Lower-Middle,6204,754,Very Good,4
+1266,89,66+,Female,CA,68010,Upper-Middle,0,704,Good,7
+1267,87,66+,Female,MN,60652,Upper-Middle,0,688,Good,4
+1268,39,36-45,Female,CA,27494,Low,44258,702,Good,3
+1269,31,26-35,Male,CA,38788,Lower-Middle,77448,716,Good,1
+1270,57,56-65,Female,IL,69007,Upper-Middle,52218,720,Good,4
+1271,43,36-45,Male,RI,49328,Lower-Middle,6197,693,Good,5
+1272,65,56-65,Female,CA,35404,Lower-Middle,30887,575,Poor,3
+1273,34,26-35,Female,CA,46361,Lower-Middle,69620,743,Very Good,2
+1274,54,46-55,Male,FL,52538,Lower-Middle,132409,602,Fair,1
+1275,73,66+,Female,NY,31317,Lower-Middle,4591,687,Good,4
+1276,28,26-35,Male,CA,32676,Lower-Middle,88515,641,Fair,1
+1277,33,26-35,Male,OR,54333,Lower-Middle,103224,584,Fair,1
+1278,66,66+,Male,GA,57383,Lower-Middle,20725,799,Very Good,4
+1279,44,36-45,Male,GA,32064,Lower-Middle,9833,709,Good,3
+1280,53,46-55,Female,MD,34361,Lower-Middle,41375,643,Fair,1
+1281,59,56-65,Male,CA,28245,Low,13411,669,Fair,1
+1282,26,26-35,Male,SD,38363,Lower-Middle,63974,838,Excellent,3
+1283,93,66+,Male,NY,10782,Low,346,770,Very Good,7
+1284,86,66+,Female,VT,35685,Lower-Middle,1135,714,Good,5
+1285,49,46-55,Female,FL,50984,Lower-Middle,65126,616,Fair,2
+1286,48,46-55,Female,IA,47374,Lower-Middle,35312,714,Good,2
+1287,33,26-35,Male,TN,56018,Lower-Middle,100163,739,Good,2
+1288,23,18-25,Female,TX,73011,Upper-Middle,240352,794,Very Good,2
+1289,59,56-65,Female,KY,27439,Low,84665,631,Fair,1
+1290,35,26-35,Female,FL,42229,Lower-Middle,0,688,Good,3
+1291,54,46-55,Female,VA,42900,Lower-Middle,111007,802,Excellent,6
+1292,60,56-65,Male,KS,39191,Lower-Middle,43396,756,Very Good,6
+1293,18,18-25,Male,VA,128123,High,135808,699,Good,1
+1294,68,66+,Male,PA,41473,Lower-Middle,98151,724,Good,3
+1295,76,66+,Male,OH,37829,Lower-Middle,20185,658,Fair,4
+1296,21,18-25,Female,MI,34568,Lower-Middle,81953,765,Very Good,1
+1297,71,66+,Male,OH,29243,Low,30686,726,Good,4
+1298,43,36-45,Female,FL,45360,Lower-Middle,14587,704,Good,3
+1299,30,26-35,Female,NJ,53407,Lower-Middle,125586,767,Very Good,3
+1300,21,18-25,Female,CA,32829,Lower-Middle,44141,652,Fair,1
+1301,68,66+,Male,LA,39832,Lower-Middle,5377,785,Very Good,4
+1302,31,26-35,Female,VA,44041,Lower-Middle,109159,680,Good,2
+1303,79,66+,Male,OH,29517,Low,2470,690,Good,4
+1304,50,46-55,Female,WI,43529,Lower-Middle,126175,797,Very Good,6
+1305,53,46-55,Male,IN,32820,Lower-Middle,23004,740,Very Good,4
+1306,69,66+,Male,CA,96901,Upper-Middle,182809,701,Good,5
+1307,60,56-65,Male,CA,33540,Lower-Middle,74530,734,Good,5
+1308,26,26-35,Male,MN,42201,Lower-Middle,138469,682,Good,5
+1309,40,36-45,Female,OH,49396,Lower-Middle,39549,814,Excellent,3
+1310,48,46-55,Male,LA,34287,Lower-Middle,77180,760,Very Good,3
+1311,39,36-45,Female,IN,34241,Lower-Middle,79551,784,Very Good,2
+1312,40,36-45,Male,OH,36247,Lower-Middle,34079,712,Good,3
+1313,63,56-65,Male,SD,52380,Lower-Middle,8764,850,Excellent,6
+1314,18,18-25,Male,NY,34716,Lower-Middle,18962,850,Excellent,3
+1315,85,66+,Male,OR,38194,Lower-Middle,1674,680,Good,3
+1316,64,56-65,Male,PA,42831,Lower-Middle,59948,566,Poor,3
+1317,80,66+,Female,PA,34819,Lower-Middle,2971,696,Good,2
+1318,63,56-65,Male,NY,34637,Lower-Middle,12623,710,Good,4
+1319,50,46-55,Female,MI,17657,Low,21899,614,Fair,2
+1320,79,66+,Male,SC,30434,Lower-Middle,23883,740,Very Good,7
+1321,23,18-25,Female,WA,47639,Lower-Middle,0,732,Good,2
+1322,32,26-35,Female,CA,25603,Low,26348,729,Good,2
+1323,56,56-65,Male,FL,28476,Low,0,693,Good,3
+1324,66,66+,Male,TX,20577,Low,60152,825,Excellent,4
+1325,64,56-65,Male,KY,30252,Lower-Middle,24172,812,Excellent,5
+1326,47,46-55,Female,CO,49169,Lower-Middle,65994,747,Very Good,2
+1327,92,66+,Male,AZ,24960,Low,889,707,Good,9
+1328,44,36-45,Female,FL,30967,Lower-Middle,61201,685,Good,3
+1329,50,46-55,Male,IL,46039,Lower-Middle,79738,672,Good,4
+1330,50,46-55,Female,WI,39911,Lower-Middle,93823,625,Fair,7
+1331,22,18-25,Male,TX,56984,Lower-Middle,128684,680,Good,5
+1332,50,46-55,Male,TN,27952,Low,2070,850,Excellent,3
+1333,22,18-25,Female,FL,85954,Upper-Middle,108684,746,Very Good,2
+1334,79,66+,Female,MN,57824,Lower-Middle,31354,668,Fair,5
+1335,29,26-35,Female,WI,43996,Lower-Middle,16260,842,Excellent,3
+1336,41,36-45,Male,CA,51943,Lower-Middle,61722,794,Very Good,3
+1337,34,26-35,Male,TN,69270,Upper-Middle,97114,540,Poor,1
+1338,49,46-55,Female,SC,44383,Lower-Middle,42369,707,Good,7
+1339,82,66+,Male,VA,92368,Upper-Middle,2689,719,Good,4
+1340,52,46-55,Female,TX,36472,Lower-Middle,80469,526,Poor,2
+1341,18,18-25,Male,MA,51873,Lower-Middle,70144,731,Good,2
+1342,47,46-55,Male,TX,3,Low,5,750,Very Good,2
+1343,44,36-45,Male,VT,36843,Lower-Middle,52248,772,Very Good,5
+1344,26,26-35,Male,FL,38634,Lower-Middle,42099,800,Excellent,2
+1345,29,26-35,Male,NC,33933,Lower-Middle,5329,698,Good,6
+1346,27,26-35,Male,IN,63760,Upper-Middle,151177,716,Good,1
+1347,53,46-55,Male,CA,52904,Lower-Middle,144534,680,Good,4
+1348,18,18-25,Female,MI,47501,Lower-Middle,81625,735,Good,2
+1349,59,56-65,Female,LA,41845,Lower-Middle,90940,673,Good,4
+1350,56,56-65,Female,CA,44875,Lower-Middle,125909,510,Poor,1
+1351,30,26-35,Male,NC,57969,Lower-Middle,92382,691,Good,2
+1352,32,26-35,Male,KY,32128,Lower-Middle,58373,724,Good,5
+1353,47,46-55,Male,MI,22505,Low,27928,798,Very Good,3
+1354,60,56-65,Female,FL,38394,Lower-Middle,69393,693,Good,5
+1355,30,26-35,Male,AZ,34998,Lower-Middle,60749,627,Fair,1
+1356,58,56-65,Male,CA,44924,Lower-Middle,27297,717,Good,3
+1357,86,66+,Female,TX,23371,Low,0,757,Very Good,8
+1358,60,56-65,Female,IN,33178,Lower-Middle,85620,687,Good,3
+1359,32,26-35,Female,OK,42084,Lower-Middle,57760,661,Fair,5
+1360,24,18-25,Male,CA,57187,Lower-Middle,9756,714,Good,2
+1361,46,46-55,Female,TX,44768,Lower-Middle,59862,728,Good,3
+1362,90,66+,Male,HI,39214,Lower-Middle,0,781,Very Good,5
+1363,73,66+,Male,WI,38809,Lower-Middle,19912,788,Very Good,4
+1364,55,46-55,Female,PA,37495,Lower-Middle,28449,687,Good,3
+1365,49,46-55,Male,CT,51802,Lower-Middle,91118,696,Good,1
+1366,65,56-65,Female,NY,103294,High,39076,831,Excellent,3
+1367,19,18-25,Female,PA,43634,Lower-Middle,52593,654,Fair,1
+1368,50,46-55,Male,TN,34868,Lower-Middle,51984,745,Very Good,3
+1369,61,56-65,Female,TX,49677,Lower-Middle,108399,593,Fair,4
+1370,67,66+,Male,AL,11029,Low,3225,786,Very Good,3
+1371,39,36-45,Female,NJ,59114,Lower-Middle,132715,730,Good,2
+1372,43,36-45,Female,NY,40576,Lower-Middle,54011,747,Very Good,2
+1373,77,66+,Female,FL,31555,Lower-Middle,12777,696,Good,4
+1374,48,46-55,Male,AZ,72844,Upper-Middle,207423,718,Good,1
+1375,24,18-25,Male,AL,35212,Lower-Middle,56286,765,Very Good,2
+1376,47,46-55,Female,MO,49045,Lower-Middle,0,727,Good,3
+1377,57,56-65,Female,CA,12044,Low,10323,576,Poor,3
+1378,38,36-45,Male,KS,46160,Lower-Middle,87459,763,Very Good,4
+1379,46,46-55,Female,OR,44249,Lower-Middle,103229,706,Good,5
+1380,76,66+,Male,WA,30248,Lower-Middle,35766,763,Very Good,4
+1381,28,26-35,Male,AL,34487,Lower-Middle,52077,702,Good,1
+1382,83,66+,Female,TX,22873,Low,0,710,Good,5
+1383,50,46-55,Male,OK,43290,Lower-Middle,90238,690,Good,4
+1384,28,26-35,Female,KS,50934,Lower-Middle,54406,720,Good,3
+1385,23,18-25,Male,VA,87437,Upper-Middle,0,738,Good,2
+1386,25,18-25,Female,MD,43178,Lower-Middle,74257,746,Very Good,3
+1387,51,46-55,Male,FL,27372,Low,54474,612,Fair,1
+1388,33,26-35,Female,OH,36755,Lower-Middle,96292,810,Excellent,2
+1389,70,66+,Female,NM,40189,Lower-Middle,24169,621,Fair,1
+1390,29,26-35,Male,PA,32024,Lower-Middle,69171,754,Very Good,1
+1391,34,26-35,Female,NY,59999,Lower-Middle,128311,676,Good,1
+1392,77,66+,Female,KY,22540,Low,16946,705,Good,6
+1393,38,36-45,Female,MO,52512,Lower-Middle,95640,706,Good,2
+1394,44,36-45,Female,CA,48430,Lower-Middle,62384,716,Good,2
+1395,36,36-45,Male,WA,64262,Upper-Middle,75415,775,Very Good,4
+1396,48,46-55,Female,TX,28267,Low,35727,799,Very Good,3
+1397,70,66+,Female,CO,45754,Lower-Middle,9066,718,Good,4
+1398,80,66+,Female,IL,16646,Low,1639,590,Fair,2
+1399,35,26-35,Female,TX,44766,Lower-Middle,68989,713,Good,2
+1400,34,26-35,Female,OH,41091,Lower-Middle,86837,695,Good,6
+1401,43,36-45,Male,AZ,28983,Low,36482,755,Very Good,3
+1402,47,46-55,Male,HI,35016,Lower-Middle,54455,732,Good,3
+1403,82,66+,Female,TX,23175,Low,1626,723,Good,5
+1404,49,46-55,Female,OH,30340,Lower-Middle,64661,552,Poor,3
+1405,38,36-45,Female,NY,41141,Lower-Middle,71060,683,Good,2
+1406,67,66+,Female,FL,23533,Low,23132,687,Good,1
+1407,24,18-25,Female,NY,26382,Low,13161,748,Very Good,2
+1408,29,26-35,Male,AZ,51891,Lower-Middle,83166,693,Good,4
+1409,41,36-45,Male,MA,43560,Lower-Middle,58544,850,Excellent,5
+1410,51,46-55,Female,AL,31713,Lower-Middle,42895,646,Fair,1
+1411,29,26-35,Male,CA,53376,Lower-Middle,60953,750,Very Good,3
+1412,58,56-65,Female,MO,33793,Lower-Middle,108196,768,Very Good,4
+1413,71,66+,Female,FL,38009,Lower-Middle,20529,689,Good,3
+1414,40,36-45,Male,CT,75711,Upper-Middle,121251,750,Very Good,1
+1415,55,46-55,Male,CA,61793,Upper-Middle,686,767,Very Good,4
+1416,31,26-35,Female,IA,53395,Lower-Middle,73370,785,Very Good,3
+1417,61,56-65,Female,NC,37342,Lower-Middle,48611,779,Very Good,5
+1418,59,56-65,Female,TX,35397,Lower-Middle,55112,828,Excellent,5
+1419,52,46-55,Male,NJ,70862,Upper-Middle,16595,745,Very Good,5
+1420,63,56-65,Female,NY,49569,Lower-Middle,58019,682,Good,2
+1421,29,26-35,Male,KS,37677,Lower-Middle,66737,685,Good,2
+1422,50,46-55,Female,WA,44355,Lower-Middle,44779,680,Good,3
+1423,78,66+,Female,CA,22290,Low,9235,716,Good,6
+1424,32,26-35,Female,KY,35227,Lower-Middle,25277,746,Very Good,3
+1425,73,66+,Female,NY,48750,Lower-Middle,18724,709,Good,8
+1426,65,56-65,Male,CA,645,Low,790,688,Good,3
+1427,40,36-45,Female,IN,37299,Lower-Middle,31923,723,Good,2
+1428,94,66+,Male,CO,60080,Upper-Middle,1807,690,Good,6
+1429,51,46-55,Female,AL,41886,Lower-Middle,107734,768,Very Good,3
+1430,47,46-55,Female,IL,70711,Upper-Middle,100226,741,Very Good,2
+1431,49,46-55,Female,NE,27691,Low,24480,687,Good,2
+1432,35,26-35,Female,DE,45508,Lower-Middle,93806,636,Fair,1
+1433,45,36-45,Male,PA,40093,Lower-Middle,81752,615,Fair,2
+1434,59,56-65,Male,TX,37536,Lower-Middle,63386,717,Good,3
+1435,18,18-25,Female,HI,56222,Lower-Middle,63846,726,Good,4
+1436,35,26-35,Male,PA,30172,Lower-Middle,39959,653,Fair,2
+1437,47,46-55,Female,NY,51330,Lower-Middle,106161,597,Fair,2
+1438,37,36-45,Female,MA,64252,Upper-Middle,92973,802,Excellent,2
+1439,45,36-45,Male,AR,39942,Lower-Middle,52441,709,Good,4
+1440,65,56-65,Female,NJ,39077,Lower-Middle,14019,709,Good,1
+1441,49,46-55,Male,MN,38039,Lower-Middle,27179,717,Good,3
+1442,23,18-25,Female,FL,53675,Lower-Middle,82373,659,Fair,5
+1443,75,66+,Male,MI,42812,Lower-Middle,22171,631,Fair,4
+1444,56,56-65,Male,CA,23231,Low,48624,726,Good,3
+1445,20,18-25,Male,MO,30229,Lower-Middle,43239,595,Fair,3
+1446,63,56-65,Male,AR,26600,Low,0,799,Very Good,4
+1447,32,26-35,Female,RI,49800,Lower-Middle,137460,694,Good,2
+1448,63,56-65,Female,PA,50696,Lower-Middle,32793,767,Very Good,5
+1449,30,26-35,Male,CA,35813,Lower-Middle,43474,748,Very Good,2
+1450,38,36-45,Male,TN,44831,Lower-Middle,20906,705,Good,3
+1451,39,36-45,Female,NJ,59313,Lower-Middle,102360,802,Excellent,2
+1452,49,46-55,Female,CA,22583,Low,62461,683,Good,4
+1453,18,18-25,Male,CA,62316,Upper-Middle,146487,813,Excellent,1
+1454,20,18-25,Male,NY,25350,Low,70475,643,Fair,2
+1455,26,26-35,Female,WI,42931,Lower-Middle,48783,742,Very Good,3
+1456,19,18-25,Male,PA,50602,Lower-Middle,66762,722,Good,2
+1457,32,26-35,Male,OH,24668,Low,22338,756,Very Good,1
+1458,63,56-65,Female,PA,56102,Lower-Middle,59198,850,Excellent,1
+1459,61,56-65,Male,WV,44257,Lower-Middle,110587,664,Fair,2
+1460,68,66+,Male,TX,63355,Upper-Middle,140526,747,Very Good,5
+1461,55,46-55,Male,NH,45767,Lower-Middle,41791,721,Good,4
+1462,46,46-55,Female,CA,33137,Lower-Middle,40559,706,Good,2
+1463,79,66+,Male,IL,37898,Lower-Middle,32994,517,Poor,2
+1464,27,26-35,Male,VT,53082,Lower-Middle,106945,689,Good,3
+1465,25,18-25,Male,GA,44204,Lower-Middle,59310,710,Good,3
+1466,24,18-25,Male,AZ,53061,Lower-Middle,84073,743,Very Good,3
+1467,28,26-35,Female,AL,44444,Lower-Middle,130382,706,Good,1
+1468,67,66+,Male,MI,56542,Lower-Middle,9097,733,Good,6
+1469,24,18-25,Female,MS,26839,Low,70077,805,Excellent,2
+1470,51,46-55,Male,MD,68362,Upper-Middle,96182,711,Good,2
+1471,30,26-35,Male,TN,45649,Lower-Middle,150985,693,Good,1
+1472,34,26-35,Female,TX,29897,Low,27736,760,Very Good,6
+1473,35,26-35,Female,CA,59872,Lower-Middle,95927,752,Very Good,4
+1474,51,46-55,Male,TN,32531,Lower-Middle,78193,631,Fair,4
+1475,41,36-45,Female,GA,46108,Lower-Middle,64994,635,Fair,1
+1476,54,46-55,Male,TX,22714,Low,27227,702,Good,3
+1477,77,66+,Female,WA,44807,Lower-Middle,13730,751,Very Good,4
+1478,39,36-45,Female,IN,31170,Lower-Middle,33165,685,Good,5
+1479,33,26-35,Female,WI,40029,Lower-Middle,0,787,Very Good,3
+1480,38,36-45,Male,FL,50957,Lower-Middle,73187,653,Fair,2
+1481,26,26-35,Female,TX,23987,Low,39071,630,Fair,1
+1482,50,46-55,Male,AR,26758,Low,41064,734,Good,5
+1483,69,66+,Female,CA,44152,Lower-Middle,90526,700,Good,5
+1484,21,18-25,Female,NY,186534,High,233746,590,Fair,1
+1485,18,18-25,Male,NY,49185,Lower-Middle,92484,690,Good,2
+1486,30,26-35,Male,FL,58865,Lower-Middle,94134,727,Good,2
+1487,49,46-55,Female,VA,42652,Lower-Middle,133935,729,Good,6
+1488,43,36-45,Female,WI,75080,Upper-Middle,35268,747,Very Good,3
+1489,56,56-65,Female,ID,39146,Lower-Middle,72957,766,Very Good,3
+1490,75,66+,Female,WA,11410,Low,0,812,Excellent,7
+1491,61,56-65,Male,MI,46843,Lower-Middle,66529,736,Good,2
+1492,23,18-25,Female,CA,52815,Lower-Middle,77064,658,Fair,2
+1493,18,18-25,Female,GA,32014,Lower-Middle,61420,728,Good,3
+1494,44,36-45,Female,GA,54659,Lower-Middle,73363,628,Fair,1
+1495,44,36-45,Male,NC,27896,Low,42046,710,Good,3
+1496,51,46-55,Male,RI,51196,Lower-Middle,26617,681,Good,3
+1497,52,46-55,Female,IN,53350,Lower-Middle,128676,685,Good,5
+1498,44,36-45,Female,NY,93406,Upper-Middle,151935,801,Excellent,3
+1499,66,66+,Male,CA,74059,Upper-Middle,144396,744,Very Good,4
+1500,21,18-25,Male,GA,51028,Lower-Middle,105239,660,Fair,2
+1501,21,18-25,Female,OH,38739,Lower-Middle,0,689,Good,3
+1502,41,36-45,Female,NY,34690,Lower-Middle,48954,683,Good,4
+1503,37,36-45,Male,MS,29297,Low,36303,825,Excellent,4
+1504,82,66+,Male,MO,33356,Lower-Middle,938,566,Poor,4
+1505,31,26-35,Male,NY,67230,Upper-Middle,45269,685,Good,2
+1506,65,56-65,Female,NY,64829,Upper-Middle,15537,664,Fair,3
+1507,29,26-35,Female,GA,67473,Upper-Middle,140270,780,Very Good,1
+1508,61,56-65,Male,PA,51039,Lower-Middle,0,704,Good,5
+1509,25,18-25,Male,CT,59599,Lower-Middle,79126,717,Good,5
+1510,56,56-65,Male,OK,35468,Lower-Middle,53185,490,Poor,2
+1511,33,26-35,Male,WI,47023,Lower-Middle,0,765,Very Good,2
+1512,80,66+,Female,TX,22326,Low,1620,564,Poor,4
+1513,22,18-25,Female,IL,41080,Lower-Middle,106545,793,Very Good,1
+1514,56,56-65,Male,NC,48944,Lower-Middle,79960,813,Excellent,7
+1515,44,36-45,Male,KS,55351,Lower-Middle,152645,703,Good,6
+1516,18,18-25,Male,UT,29497,Low,66044,722,Good,3
+1517,25,18-25,Female,FL,69572,Upper-Middle,137845,753,Very Good,2
+1518,37,36-45,Male,NV,48710,Lower-Middle,59824,792,Very Good,3
+1519,32,26-35,Male,LA,35755,Lower-Middle,61748,708,Good,4
+1520,67,66+,Female,CT,62669,Upper-Middle,70317,760,Very Good,5
+1521,39,36-45,Male,IA,32801,Lower-Middle,44496,701,Good,2
+1522,50,46-55,Female,NC,37617,Lower-Middle,57746,695,Good,3
+1523,33,26-35,Male,TX,36496,Lower-Middle,119670,759,Very Good,1
+1524,77,66+,Male,NY,47993,Lower-Middle,3080,827,Excellent,5
+1525,71,66+,Female,UT,23350,Low,19515,679,Good,2
+1526,52,46-55,Female,OK,29496,Low,49681,704,Good,5
+1527,59,56-65,Female,PA,42825,Lower-Middle,105122,850,Excellent,5
+1528,47,46-55,Female,NY,34057,Lower-Middle,59247,655,Fair,4
+1529,42,36-45,Female,TX,43181,Lower-Middle,57199,710,Good,3
+1530,32,26-35,Male,NJ,97248,Upper-Middle,197100,775,Very Good,5
+1531,43,36-45,Male,MO,34869,Lower-Middle,53381,699,Good,2
+1532,58,56-65,Female,WI,31343,Lower-Middle,49537,741,Very Good,3
+1533,63,56-65,Female,TX,30399,Lower-Middle,19404,668,Fair,4
+1534,52,46-55,Female,KY,58278,Lower-Middle,51539,689,Good,6
+1535,62,56-65,Male,KY,9445,Low,14856,641,Fair,2
+1536,32,26-35,Female,NJ,34034,Lower-Middle,55846,633,Fair,2
+1537,59,56-65,Male,FL,109440,High,180865,737,Good,5
+1538,20,18-25,Female,NJ,62365,Upper-Middle,137710,606,Fair,1
+1539,85,66+,Female,PA,38499,Lower-Middle,1493,746,Very Good,5
+1540,21,18-25,Female,IN,47622,Lower-Middle,87054,709,Good,2
+1541,48,46-55,Female,MO,40017,Lower-Middle,75377,648,Fair,1
+1542,28,26-35,Female,FL,40381,Lower-Middle,63008,730,Good,3
+1543,63,56-65,Female,IL,4,Low,0,691,Good,3
+1544,32,26-35,Female,NY,48676,Lower-Middle,110589,721,Good,4
+1545,62,56-65,Male,WI,20377,Low,12092,789,Very Good,4
+1546,53,46-55,Female,CA,40470,Lower-Middle,87086,691,Good,5
+1547,52,46-55,Male,MA,79272,Upper-Middle,107029,716,Good,3
+1548,42,36-45,Male,CT,59663,Lower-Middle,89579,681,Good,1
+1549,30,26-35,Male,PA,69412,Upper-Middle,64273,699,Good,2
+1550,23,18-25,Female,FL,22844,Low,37625,689,Good,1
+1551,69,66+,Male,NM,16542,Low,36831,733,Good,3
+1552,23,18-25,Female,CA,59479,Lower-Middle,69645,688,Good,1
+1553,61,56-65,Female,TN,52633,Lower-Middle,137109,704,Good,1
+1554,21,18-25,Female,NC,31167,Lower-Middle,29342,749,Very Good,3
+1555,25,18-25,Female,IA,37864,Lower-Middle,57052,686,Good,1
+1556,18,18-25,Female,TX,32998,Lower-Middle,45196,736,Good,1
+1557,31,26-35,Female,TX,35331,Lower-Middle,55566,697,Good,4
+1558,46,46-55,Male,MS,31739,Lower-Middle,81905,799,Very Good,5
+1559,18,18-25,Female,TX,25654,Low,55761,746,Very Good,1
+1560,35,26-35,Male,CA,34542,Lower-Middle,35474,697,Good,4
+1561,26,26-35,Male,IL,33437,Lower-Middle,56690,588,Fair,1
+1562,53,46-55,Male,TX,28134,Low,20231,707,Good,3
+1563,54,46-55,Male,GA,72807,Upper-Middle,0,803,Excellent,3
+1564,62,56-65,Female,OR,46075,Lower-Middle,139335,741,Very Good,3
+1565,35,26-35,Female,WA,36213,Lower-Middle,48364,637,Fair,1
+1566,62,56-65,Female,CO,33556,Lower-Middle,10619,799,Very Good,4
+1567,54,46-55,Male,TX,47482,Lower-Middle,59590,726,Good,5
+1568,52,46-55,Male,OH,36927,Lower-Middle,54145,554,Poor,1
+1569,18,18-25,Female,GA,40131,Lower-Middle,48468,721,Good,1
+1570,52,46-55,Female,IL,30509,Lower-Middle,56953,641,Fair,2
+1571,87,66+,Female,CA,33279,Lower-Middle,1642,778,Very Good,6
+1572,61,56-65,Male,TN,35196,Lower-Middle,51751,684,Good,4
+1573,52,46-55,Female,NJ,44128,Lower-Middle,148684,739,Good,3
+1574,20,18-25,Female,ND,45292,Lower-Middle,88917,660,Fair,4
+1575,42,36-45,Male,MD,53464,Lower-Middle,20683,751,Very Good,4
+1576,40,36-45,Female,NY,26865,Low,19529,826,Excellent,5
+1577,18,18-25,Female,FL,41579,Lower-Middle,50190,694,Good,2
+1578,46,46-55,Female,CA,31632,Lower-Middle,76538,832,Excellent,3
+1579,30,26-35,Female,ND,48277,Lower-Middle,110153,740,Very Good,4
+1580,19,18-25,Male,SC,33426,Lower-Middle,51699,664,Fair,4
+1581,73,66+,Female,OH,13089,Low,10928,772,Very Good,4
+1582,24,18-25,Male,SC,23212,Low,25138,799,Very Good,3
+1583,18,18-25,Male,CA,49084,Lower-Middle,106863,577,Poor,3
+1584,63,56-65,Female,NY,31582,Lower-Middle,23359,693,Good,4
+1585,74,66+,Male,NY,54013,Lower-Middle,3628,779,Very Good,8
+1586,41,36-45,Male,TX,32387,Lower-Middle,65171,765,Very Good,1
+1587,61,56-65,Female,IL,34619,Lower-Middle,13326,747,Very Good,5
+1588,52,46-55,Male,TX,28137,Low,88482,797,Very Good,6
+1589,56,56-65,Female,CA,27981,Low,62926,717,Good,3
+1590,65,56-65,Female,LA,39221,Lower-Middle,45409,786,Very Good,4
+1591,25,18-25,Female,CA,83104,Upper-Middle,222502,714,Good,5
+1592,59,56-65,Male,SC,48867,Lower-Middle,92873,644,Fair,2
+1593,49,46-55,Female,RI,49464,Lower-Middle,123198,705,Good,6
+1594,37,36-45,Female,AL,36122,Lower-Middle,51593,641,Fair,2
+1595,20,18-25,Male,RI,46284,Lower-Middle,46220,850,Excellent,1
+1596,49,46-55,Female,NC,48688,Lower-Middle,81995,679,Good,1
+1597,50,46-55,Female,WA,71427,Upper-Middle,115702,709,Good,3
+1598,60,56-65,Male,PA,70840,Upper-Middle,52578,736,Good,4
+1599,32,26-35,Female,SC,54804,Lower-Middle,172493,687,Good,2
+1600,88,66+,Male,TX,22371,Low,994,700,Good,4
+1601,51,46-55,Male,NC,37467,Lower-Middle,50461,784,Very Good,4
+1602,32,26-35,Male,MN,62492,Upper-Middle,18680,686,Good,3
+1603,42,36-45,Male,MO,35119,Lower-Middle,57463,850,Excellent,3
+1604,63,56-65,Female,CA,28147,Low,25987,756,Very Good,7
+1605,19,18-25,Male,GA,64585,Upper-Middle,121851,665,Fair,1
+1606,33,26-35,Male,CA,29996,Low,44313,809,Excellent,4
+1607,61,56-65,Female,TX,29206,Low,25966,716,Good,6
+1608,51,46-55,Male,KS,84944,Upper-Middle,57746,713,Good,3
+1609,21,18-25,Female,MI,24006,Low,57226,801,Excellent,2
+1610,50,46-55,Male,CT,45674,Lower-Middle,83331,717,Good,1
+1611,48,46-55,Female,IN,40392,Lower-Middle,52417,645,Fair,1
+1612,41,36-45,Female,NH,40334,Lower-Middle,65793,597,Fair,3
+1613,36,36-45,Male,AZ,42927,Lower-Middle,132343,687,Good,4
+1614,24,18-25,Male,OH,37122,Lower-Middle,58984,753,Very Good,4
+1615,36,36-45,Female,MI,19800,Low,40038,682,Good,3
+1616,49,46-55,Male,PA,44303,Lower-Middle,53407,696,Good,1
+1617,61,56-65,Female,NY,30984,Lower-Middle,39222,616,Fair,4
+1618,45,36-45,Female,NJ,112875,High,44432,709,Good,2
+1619,28,26-35,Female,TN,29371,Low,32300,715,Good,2
+1620,35,26-35,Male,IL,28325,Low,38658,822,Excellent,6
+1621,52,46-55,Female,IL,45462,Lower-Middle,68494,657,Fair,5
+1622,32,26-35,Female,TX,35565,Lower-Middle,54634,681,Good,3
+1623,18,18-25,Male,NC,41940,Lower-Middle,82593,710,Good,1
+1624,61,56-65,Female,NJ,58433,Lower-Middle,48231,696,Good,4
+1625,57,56-65,Male,PA,34272,Lower-Middle,39514,765,Very Good,4
+1626,18,18-25,Male,FL,71312,Upper-Middle,200793,741,Very Good,4
+1627,49,46-55,Female,CA,37401,Lower-Middle,76201,737,Good,4
+1628,18,18-25,Female,FL,56921,Lower-Middle,115330,823,Excellent,1
+1629,52,46-55,Male,IN,29957,Low,60321,624,Fair,5
+1630,51,46-55,Male,IL,44206,Lower-Middle,62813,690,Good,1
+1631,47,46-55,Male,LA,38190,Lower-Middle,81968,652,Fair,1
+1632,37,36-45,Female,AR,34032,Lower-Middle,68762,769,Very Good,2
+1633,43,36-45,Male,NC,36189,Lower-Middle,16988,694,Good,3
+1634,51,46-55,Male,MS,22557,Low,63019,699,Good,5
+1635,44,36-45,Male,CA,56163,Lower-Middle,104767,671,Good,1
+1636,44,36-45,Male,WA,44963,Lower-Middle,90682,705,Good,4
+1637,20,18-25,Male,MI,39144,Lower-Middle,55347,702,Good,1
+1638,82,66+,Female,OH,21815,Low,1597,498,Poor,5
+1639,49,46-55,Female,WA,49026,Lower-Middle,83385,718,Good,1
+1640,38,36-45,Male,MT,39882,Lower-Middle,77817,809,Excellent,4
+1641,59,56-65,Female,TX,53878,Lower-Middle,78143,779,Very Good,4
+1642,18,18-25,Female,CA,31644,Lower-Middle,70064,480,Poor,1
+1643,30,26-35,Female,CO,41839,Lower-Middle,46226,761,Very Good,4
+1644,54,46-55,Female,FL,31240,Lower-Middle,26005,770,Very Good,5
+1645,80,66+,Female,NY,9766,Low,66,732,Good,4
+1646,25,18-25,Female,PA,33682,Lower-Middle,42690,793,Very Good,1
+1647,29,26-35,Male,MA,126775,High,28869,685,Good,2
+1648,45,36-45,Female,AL,34817,Lower-Middle,63313,586,Fair,1
+1649,65,56-65,Female,NE,16889,Low,38489,679,Good,5
+1650,25,18-25,Female,FL,40000,Lower-Middle,127951,767,Very Good,3
+1651,31,26-35,Male,NH,41986,Lower-Middle,134162,697,Good,1
+1652,23,18-25,Male,NJ,44128,Lower-Middle,0,760,Very Good,1
+1653,23,18-25,Male,IL,58721,Lower-Middle,135065,758,Very Good,1
+1654,55,46-55,Male,MS,25051,Low,19465,734,Good,4
+1655,20,18-25,Female,CO,29040,Low,36331,703,Good,1
+1656,45,36-45,Male,AL,42379,Lower-Middle,64124,550,Poor,1
+1657,59,56-65,Male,CA,46341,Lower-Middle,78610,686,Good,6
+1658,20,18-25,Male,PA,63292,Upper-Middle,145756,635,Fair,1
+1659,37,36-45,Male,TN,23967,Low,3880,722,Good,4
+1660,41,36-45,Female,OH,48038,Lower-Middle,83238,704,Good,6
+1661,27,26-35,Male,CA,45973,Lower-Middle,0,777,Very Good,2
+1662,75,66+,Male,NC,22850,Low,17453,714,Good,6
+1663,22,18-25,Female,MD,42856,Lower-Middle,67954,571,Poor,1
+1664,22,18-25,Male,KY,35635,Lower-Middle,16372,713,Good,4
+1665,66,66+,Female,CA,24947,Low,1767,766,Very Good,4
+1666,74,66+,Female,UT,31792,Lower-Middle,28723,647,Fair,3
+1667,23,18-25,Female,TX,38983,Lower-Middle,96098,577,Poor,1
+1668,31,26-35,Female,PA,73117,Upper-Middle,73557,685,Good,2
+1669,59,56-65,Female,RI,61991,Upper-Middle,2151,758,Very Good,4
+1670,19,18-25,Female,MI,32192,Lower-Middle,24074,686,Good,2
+1671,36,36-45,Male,FL,67444,Upper-Middle,93513,850,Excellent,1
+1672,22,18-25,Female,ME,45846,Lower-Middle,103277,766,Very Good,1
+1673,81,66+,Female,FL,28594,Low,1821,728,Good,5
+1674,29,26-35,Female,TX,67166,Upper-Middle,123932,688,Good,2
+1675,47,46-55,Male,GA,41965,Lower-Middle,55700,724,Good,2
+1676,47,46-55,Female,CA,48406,Lower-Middle,80441,683,Good,3
+1677,35,26-35,Female,PA,102369,High,189558,738,Good,2
+1678,66,66+,Female,FL,36481,Lower-Middle,81550,850,Excellent,6
+1679,25,18-25,Male,MN,60910,Upper-Middle,110864,679,Good,2
+1680,49,46-55,Female,SC,34982,Lower-Middle,134631,765,Very Good,3
+1681,79,66+,Female,HI,32232,Lower-Middle,21134,652,Fair,5
+1682,37,36-45,Male,MI,66111,Upper-Middle,98102,771,Very Good,5
+1683,81,66+,Female,NY,162709,High,5642,542,Poor,3
+1684,46,46-55,Male,IA,37857,Lower-Middle,57727,800,Excellent,2
+1685,70,66+,Male,TX,23082,Low,23406,638,Fair,5
+1686,83,66+,Male,NY,2,Low,0,667,Fair,6
+1687,37,36-45,Male,CT,56248,Lower-Middle,149587,728,Good,4
+1688,18,18-25,Female,TX,32281,Lower-Middle,80882,630,Fair,2
+1689,85,66+,Male,SC,30451,Lower-Middle,93,686,Good,4
+1690,85,66+,Female,NC,28134,Low,2081,674,Good,2
+1691,47,46-55,Female,NY,52065,Lower-Middle,98613,828,Excellent,5
+1692,32,26-35,Female,CA,33212,Lower-Middle,59638,649,Fair,1
+1693,52,46-55,Male,CA,31070,Lower-Middle,86747,708,Good,4
+1694,18,18-25,Male,KY,29562,Low,31509,757,Very Good,1
+1695,52,46-55,Male,MD,61532,Upper-Middle,26832,683,Good,4
+1696,18,18-25,Female,NM,30778,Lower-Middle,73680,681,Good,1
+1697,66,66+,Male,NC,27266,Low,19798,777,Very Good,5
+1698,57,56-65,Male,ND,48750,Lower-Middle,117616,716,Good,5
+1699,18,18-25,Male,MA,82972,Upper-Middle,173295,653,Fair,1
+1700,21,18-25,Female,LA,56280,Lower-Middle,81803,760,Very Good,1
+1701,18,18-25,Male,WA,50086,Lower-Middle,51164,776,Very Good,3
+1702,22,18-25,Female,OK,38892,Lower-Middle,50150,705,Good,2
+1703,47,46-55,Female,IL,45164,Lower-Middle,0,730,Good,3
+1704,38,36-45,Female,PA,51391,Lower-Middle,94145,656,Fair,1
+1705,54,46-55,Male,OH,42379,Lower-Middle,136748,692,Good,3
+1706,49,46-55,Male,IA,33995,Lower-Middle,46102,531,Poor,1
+1707,18,18-25,Male,CA,32165,Lower-Middle,25778,689,Good,1
+1708,54,46-55,Female,CT,61740,Upper-Middle,126015,583,Fair,2
+1709,86,66+,Female,MS,9678,Low,812,688,Good,6
+1710,46,46-55,Female,TN,38971,Lower-Middle,0,784,Very Good,3
+1711,85,66+,Male,TX,12826,Low,1550,734,Good,5
+1712,77,66+,Male,TX,22104,Low,20031,670,Good,3
+1713,23,18-25,Female,CA,56168,Lower-Middle,186534,703,Good,3
+1714,18,18-25,Male,NC,45313,Lower-Middle,21488,716,Good,2
+1715,53,46-55,Female,FL,37119,Lower-Middle,55010,718,Good,5
+1716,25,18-25,Female,TX,42883,Lower-Middle,65917,807,Excellent,3
+1717,53,46-55,Female,OH,36925,Lower-Middle,89762,721,Good,5
+1718,32,26-35,Male,NY,67976,Upper-Middle,105337,747,Very Good,3
+1719,27,26-35,Female,OH,33266,Lower-Middle,0,693,Good,5
+1720,25,18-25,Female,FL,39520,Lower-Middle,61310,595,Fair,2
+1721,27,26-35,Male,IN,52550,Lower-Middle,140825,710,Good,1
+1722,51,46-55,Female,FL,64481,Upper-Middle,114394,627,Fair,5
+1723,55,46-55,Female,NC,36270,Lower-Middle,73779,769,Very Good,5
+1724,31,26-35,Male,CA,76820,Upper-Middle,159137,819,Excellent,2
+1725,65,56-65,Male,KS,49817,Lower-Middle,26928,600,Fair,2
+1726,67,66+,Female,MD,47087,Lower-Middle,92489,820,Excellent,5
+1727,66,66+,Female,NC,36052,Lower-Middle,6602,767,Very Good,4
+1728,29,26-35,Male,AL,25434,Low,0,698,Good,2
+1729,41,36-45,Male,SC,38450,Lower-Middle,51430,850,Excellent,1
+1730,38,36-45,Male,CA,68827,Upper-Middle,35669,755,Very Good,2
+1731,64,56-65,Male,TX,399,Low,323,729,Good,3
+1732,71,66+,Male,FL,17775,Low,11520,746,Very Good,1
+1733,64,56-65,Male,IL,28954,Low,41461,636,Fair,2
+1734,83,66+,Male,CA,82009,Upper-Middle,6229,764,Very Good,8
+1735,50,46-55,Male,OR,46077,Lower-Middle,135862,639,Fair,3
+1736,36,36-45,Male,CT,58225,Lower-Middle,101148,685,Good,3
+1737,20,18-25,Female,NJ,47504,Lower-Middle,65156,706,Good,1
+1738,58,56-65,Female,KY,54166,Lower-Middle,0,707,Good,5
+1739,54,46-55,Female,TN,58248,Lower-Middle,107130,728,Good,4
+1740,30,26-35,Male,FL,92046,Upper-Middle,6658,681,Good,2
+1741,53,46-55,Male,FL,40745,Lower-Middle,18371,718,Good,4
+1742,71,66+,Female,VA,87659,Upper-Middle,0,779,Very Good,4
+1743,29,26-35,Male,CA,63583,Upper-Middle,200435,635,Fair,1
+1744,58,56-65,Male,CA,40900,Lower-Middle,64420,678,Good,3
+1745,67,66+,Female,NY,43070,Lower-Middle,14135,726,Good,4
+1746,54,46-55,Male,AL,23863,Low,83430,536,Poor,2
+1747,92,66+,Male,NH,56099,Lower-Middle,933,751,Very Good,6
+1748,32,26-35,Female,TX,49374,Lower-Middle,108192,706,Good,2
+1749,20,18-25,Male,PA,71750,Upper-Middle,117124,697,Good,3
+1750,20,18-25,Female,OH,65082,Upper-Middle,88347,850,Excellent,1
+1751,18,18-25,Male,TX,29047,Low,36835,786,Very Good,1
+1752,43,36-45,Male,CA,39052,Lower-Middle,65861,804,Excellent,4
+1753,94,66+,Female,IL,40787,Lower-Middle,1574,782,Very Good,6
+1754,22,18-25,Female,TX,22876,Low,36157,685,Good,2
+1755,61,56-65,Female,OR,30359,Lower-Middle,16552,758,Very Good,2
+1756,47,46-55,Female,KY,26130,Low,54290,498,Poor,1
+1757,59,56-65,Male,TX,193768,High,150896,686,Good,5
+1758,32,26-35,Male,CA,27795,Low,72318,701,Good,4
+1759,53,46-55,Female,AL,31688,Lower-Middle,66776,605,Fair,3
+1760,36,36-45,Male,NE,36753,Lower-Middle,33657,684,Good,4
+1761,63,56-65,Male,FL,12796,Low,22192,644,Fair,3
+1762,32,26-35,Female,OK,30737,Lower-Middle,35858,815,Excellent,2
+1763,30,26-35,Male,MD,64340,Upper-Middle,94513,637,Fair,1
+1764,50,46-55,Female,NJ,57975,Lower-Middle,34570,773,Very Good,4
+1765,30,26-35,Male,WI,39520,Lower-Middle,53896,772,Very Good,1
+1766,59,56-65,Female,NJ,34190,Lower-Middle,39242,810,Excellent,7
+1767,28,26-35,Female,CA,26513,Low,32620,604,Fair,1
+1768,78,66+,Female,GA,8526,Low,3723,684,Good,3
+1769,40,36-45,Female,NC,40867,Lower-Middle,50449,694,Good,2
+1770,34,26-35,Male,GA,29594,Low,47766,792,Very Good,1
+1771,35,26-35,Female,CA,23238,Low,31661,611,Fair,2
+1772,49,46-55,Female,PA,41071,Lower-Middle,124139,685,Good,1
+1773,65,56-65,Female,MO,17056,Low,29112,667,Fair,5
+1774,36,36-45,Female,DE,64672,Upper-Middle,56485,695,Good,4
+1775,62,56-65,Female,CA,26975,Low,17212,673,Good,2
+1776,30,26-35,Female,PA,20424,Low,14743,770,Very Good,3
+1777,60,56-65,Female,MI,46244,Lower-Middle,108449,814,Excellent,5
+1778,38,36-45,Female,MO,44334,Lower-Middle,55173,684,Good,5
+1779,63,56-65,Male,NY,71909,Upper-Middle,44190,712,Good,3
+1780,66,66+,Female,NJ,185909,High,461854,621,Fair,5
+1781,76,66+,Male,NC,21867,Low,21103,759,Very Good,2
+1782,40,36-45,Female,OH,43229,Lower-Middle,96831,685,Good,2
+1783,64,56-65,Male,TX,24420,Low,14460,685,Good,1
+1784,54,46-55,Female,FL,31655,Lower-Middle,46405,623,Fair,1
+1785,84,66+,Female,MA,66745,Upper-Middle,682,718,Good,3
+1786,22,18-25,Male,MN,41214,Lower-Middle,130538,763,Very Good,1
+1787,49,46-55,Male,NM,49756,Lower-Middle,70744,705,Good,1
+1788,66,66+,Male,GA,28104,Low,12054,751,Very Good,3
+1789,54,46-55,Female,MI,52680,Lower-Middle,87082,835,Excellent,5
+1790,61,56-65,Female,KY,27733,Low,21785,765,Very Good,3
+1791,61,56-65,Male,IN,21397,Low,54771,812,Excellent,4
+1792,47,46-55,Male,CA,50163,Lower-Middle,97188,761,Very Good,4
+1793,25,18-25,Female,WI,26939,Low,69587,752,Very Good,1
+1794,52,46-55,Male,MN,42129,Lower-Middle,101742,758,Very Good,4
+1795,48,46-55,Female,NJ,45422,Lower-Middle,83940,689,Good,4
+1796,37,36-45,Male,MT,41401,Lower-Middle,71180,580,Fair,1
+1797,19,18-25,Female,CA,55854,Lower-Middle,111042,782,Very Good,1
+1798,66,66+,Female,NH,50523,Lower-Middle,98763,578,Poor,1
+1799,73,66+,Male,AL,48060,Lower-Middle,17440,581,Fair,3
+1800,40,36-45,Male,TX,25861,Low,42050,607,Fair,3
+1801,29,26-35,Female,NJ,44688,Lower-Middle,88092,716,Good,3
+1802,41,36-45,Female,NY,49776,Lower-Middle,17352,684,Good,3
+1803,21,18-25,Male,OH,86042,Upper-Middle,165447,701,Good,2
+1804,27,26-35,Male,IL,48484,Lower-Middle,63561,775,Very Good,4
+1805,54,46-55,Male,PA,47814,Lower-Middle,92020,720,Good,2
+1806,20,18-25,Female,LA,35559,Lower-Middle,59164,672,Good,2
+1807,38,36-45,Male,IA,40478,Lower-Middle,76392,718,Good,3
+1808,45,36-45,Male,NC,36323,Lower-Middle,65525,700,Good,3
+1809,34,26-35,Female,MT,41249,Lower-Middle,42268,695,Good,2
+1810,62,56-65,Male,NM,29769,Low,14542,693,Good,3
+1811,23,18-25,Female,CA,307018,High,516263,745,Very Good,2
+1812,20,18-25,Male,MI,36264,Lower-Middle,99582,725,Good,1
+1813,36,36-45,Female,AZ,74016,Upper-Middle,85204,702,Good,2
+1814,46,46-55,Female,OH,55565,Lower-Middle,34039,731,Good,2
+1815,31,26-35,Male,VA,50242,Lower-Middle,84457,722,Good,2
+1816,43,36-45,Male,NJ,46278,Lower-Middle,51243,791,Very Good,4
+1817,31,26-35,Male,KY,43724,Lower-Middle,53853,514,Poor,1
+1818,18,18-25,Female,KY,64504,Upper-Middle,69041,695,Good,3
+1819,42,36-45,Female,OK,44624,Lower-Middle,102882,611,Fair,1
+1820,49,46-55,Male,TX,75137,Upper-Middle,175263,631,Fair,1
+1821,70,66+,Male,CA,36724,Lower-Middle,16437,701,Good,4
+1822,61,56-65,Male,NC,51581,Lower-Middle,35134,810,Excellent,5
+1823,47,46-55,Male,NH,43144,Lower-Middle,54157,628,Fair,3
+1824,91,66+,Female,LA,27150,Low,2007,737,Good,1
+1825,47,46-55,Male,VA,62432,Upper-Middle,95799,741,Very Good,5
+1826,18,18-25,Male,CA,28006,Low,19518,703,Good,2
+1827,62,56-65,Male,GA,67470,Upper-Middle,93795,804,Excellent,6
+1828,18,18-25,Female,KS,52315,Lower-Middle,109513,774,Very Good,4
+1829,20,18-25,Female,MA,54424,Lower-Middle,92199,687,Good,1
+1830,22,18-25,Male,KS,45254,Lower-Middle,75758,850,Excellent,2
+1831,34,26-35,Female,NY,31525,Lower-Middle,57818,686,Good,2
+1832,44,36-45,Female,AR,32330,Lower-Middle,97190,835,Excellent,4
+1833,30,26-35,Male,NM,33993,Lower-Middle,45149,602,Fair,4
+1834,40,36-45,Female,AL,18935,Low,43928,658,Fair,3
+1835,73,66+,Female,FL,42593,Lower-Middle,16083,703,Good,2
+1836,21,18-25,Male,MO,65058,Upper-Middle,157708,746,Very Good,1
+1837,50,46-55,Female,VA,49570,Lower-Middle,43645,752,Very Good,5
+1838,47,46-55,Female,CA,34441,Lower-Middle,907,725,Good,4
+1839,30,26-35,Female,WA,42101,Lower-Middle,70460,685,Good,1
+1840,71,66+,Female,NY,40516,Lower-Middle,6908,698,Good,5
+1841,33,26-35,Male,MI,24009,Low,19085,811,Excellent,4
+1842,33,26-35,Male,MI,37579,Lower-Middle,59201,710,Good,2
+1843,53,46-55,Female,CA,42152,Lower-Middle,55576,751,Very Good,1
+1844,63,56-65,Female,MO,23725,Low,47647,710,Good,5
+1845,21,18-25,Female,NY,29475,Low,48741,722,Good,1
+1846,82,66+,Female,CA,34903,Lower-Middle,1336,630,Fair,1
+1847,39,36-45,Male,OH,39336,Lower-Middle,43747,690,Good,3
+1848,32,26-35,Female,NY,40256,Lower-Middle,0,719,Good,2
+1849,18,18-25,Male,CA,54547,Lower-Middle,92901,751,Very Good,1
+1850,54,46-55,Female,IL,85596,Upper-Middle,159101,618,Fair,1
+1851,37,36-45,Male,AL,35060,Lower-Middle,39104,724,Good,2
+1852,69,66+,Male,OK,30983,Lower-Middle,10019,757,Very Good,5
+1853,55,46-55,Male,IL,45707,Lower-Middle,113194,715,Good,3
+1854,43,36-45,Female,NJ,49788,Lower-Middle,83932,690,Good,3
+1855,69,66+,Female,VA,50753,Lower-Middle,20226,698,Good,4
+1856,88,66+,Female,OH,16296,Low,667,838,Excellent,7
+1857,21,18-25,Male,NY,31077,Lower-Middle,89659,789,Very Good,5
+1858,27,26-35,Female,MI,38487,Lower-Middle,28032,773,Very Good,4
+1859,59,56-65,Female,TX,32347,Lower-Middle,82667,784,Very Good,7
+1860,37,36-45,Female,NJ,40470,Lower-Middle,41938,731,Good,5
+1861,49,46-55,Male,NY,38028,Lower-Middle,79101,831,Excellent,4
+1862,83,66+,Female,DE,25567,Low,1001,665,Fair,3
+1863,33,26-35,Male,NY,51848,Lower-Middle,86951,692,Good,1
+1864,48,46-55,Male,IN,29081,Low,56301,655,Fair,3
+1865,34,26-35,Male,IL,92375,Upper-Middle,156949,712,Good,5
+1866,31,26-35,Female,GA,62692,Upper-Middle,50290,698,Good,2
+1867,58,56-65,Male,UT,35229,Lower-Middle,60945,724,Good,2
+1868,40,36-45,Female,TX,75918,Upper-Middle,94579,759,Very Good,2
+1869,39,36-45,Female,WA,41483,Lower-Middle,64098,721,Good,2
+1870,50,46-55,Female,CA,53810,Lower-Middle,78986,637,Fair,1
+1871,26,26-35,Female,NC,38036,Lower-Middle,0,743,Very Good,3
+1872,20,18-25,Male,MA,48747,Lower-Middle,171249,713,Good,3
+1873,29,26-35,Female,MI,75070,Upper-Middle,161525,723,Good,1
+1874,42,36-45,Male,CA,58584,Lower-Middle,99235,563,Poor,2
+1875,53,46-55,Female,NC,39974,Lower-Middle,77967,644,Fair,2
+1876,48,46-55,Male,NY,27447,Low,80850,673,Good,5
+1877,32,26-35,Female,OK,33548,Lower-Middle,31183,693,Good,2
+1878,23,18-25,Male,OH,42200,Lower-Middle,28557,769,Very Good,2
+1879,18,18-25,Female,GA,33459,Lower-Middle,37753,705,Good,3
+1880,78,66+,Male,VA,113514,High,16524,727,Good,8
+1881,38,36-45,Female,OK,25524,Low,69401,759,Very Good,3
+1882,50,46-55,Male,CA,141161,High,0,773,Very Good,3
+1883,32,26-35,Female,MD,53890,Lower-Middle,252106,656,Fair,4
+1884,60,56-65,Male,TN,74550,Upper-Middle,37427,687,Good,4
+1885,81,66+,Female,TX,32669,Lower-Middle,1433,755,Very Good,5
+1886,54,46-55,Male,PA,37579,Lower-Middle,0,742,Very Good,5
+1887,53,46-55,Male,NY,70634,Upper-Middle,155651,682,Good,4
+1888,51,46-55,Male,NJ,109673,High,242379,505,Poor,1
+1889,46,46-55,Female,IL,32150,Lower-Middle,47179,717,Good,6
+1890,42,36-45,Male,IA,45475,Lower-Middle,68358,698,Good,3
+1891,38,36-45,Female,OH,43634,Lower-Middle,73037,786,Very Good,3
+1892,23,18-25,Male,NY,37769,Lower-Middle,1412,742,Very Good,2
+1893,74,66+,Male,VA,24545,Low,22488,753,Very Good,2
+1894,83,66+,Female,OK,33811,Lower-Middle,2206,682,Good,7
+1895,61,56-65,Male,IA,51528,Lower-Middle,58509,745,Very Good,6
+1896,64,56-65,Female,GA,40407,Lower-Middle,62695,793,Very Good,3
+1897,57,56-65,Female,CO,63974,Upper-Middle,131731,707,Good,4
+1898,59,56-65,Female,CT,51788,Lower-Middle,77642,675,Good,2
+1899,23,18-25,Female,MD,71590,Upper-Middle,60635,717,Good,2
+1900,65,56-65,Male,SC,25257,Low,83995,734,Good,6
+1901,24,18-25,Male,OH,38549,Lower-Middle,35691,684,Good,2
+1902,20,18-25,Male,HI,46580,Lower-Middle,91081,660,Fair,2
+1903,61,56-65,Female,CA,44583,Lower-Middle,85531,717,Good,5
+1904,62,56-65,Female,CA,52908,Lower-Middle,109229,709,Good,4
+1905,30,26-35,Female,GA,26996,Low,33332,501,Poor,2
+1906,18,18-25,Male,TX,32635,Lower-Middle,47930,734,Good,3
+1907,29,26-35,Male,NY,36050,Lower-Middle,45559,708,Good,3
+1908,34,26-35,Female,NC,36324,Lower-Middle,56689,705,Good,4
+1909,44,36-45,Male,DE,37965,Lower-Middle,69614,796,Very Good,3
+1910,57,56-65,Male,MI,34856,Lower-Middle,127313,830,Excellent,3
+1911,63,56-65,Female,FL,32928,Lower-Middle,80794,850,Excellent,5
+1912,24,18-25,Female,CA,28011,Low,20196,720,Good,4
+1913,59,56-65,Male,OH,33311,Lower-Middle,65822,590,Fair,2
+1914,22,18-25,Female,UT,34852,Lower-Middle,53830,641,Fair,1
+1915,21,18-25,Female,NJ,44501,Lower-Middle,37251,683,Good,2
+1916,53,46-55,Male,IL,30054,Lower-Middle,60128,681,Good,1
+1917,62,56-65,Male,FL,40891,Lower-Middle,61245,717,Good,4
+1918,37,36-45,Female,WA,67747,Upper-Middle,76650,804,Excellent,3
+1919,56,56-65,Male,CA,26510,Low,53023,696,Good,4
+1920,84,66+,Male,WI,26676,Low,1370,733,Good,5
+1921,44,36-45,Female,TX,45497,Lower-Middle,101549,713,Good,3
+1922,87,66+,Male,GA,27971,Low,1265,765,Very Good,4
+1923,31,26-35,Female,KY,51501,Lower-Middle,140481,729,Good,3
+1924,21,18-25,Male,CT,113797,High,169684,660,Fair,1
+1925,19,18-25,Male,TX,34134,Lower-Middle,0,683,Good,2
+1926,84,66+,Female,NC,16430,Low,2873,779,Very Good,7
+1927,72,66+,Male,FL,16302,Low,14408,748,Very Good,4
+1928,33,26-35,Female,NY,54091,Lower-Middle,165960,675,Good,1
+1929,51,46-55,Male,NY,29388,Low,21221,755,Very Good,3
+1930,54,46-55,Male,CA,62837,Upper-Middle,86171,850,Excellent,3
+1931,45,36-45,Male,ND,48755,Lower-Middle,37315,777,Very Good,8
+1932,39,36-45,Female,CA,44506,Lower-Middle,57994,849,Excellent,3
+1933,64,56-65,Male,MN,31244,Lower-Middle,51924,713,Good,4
+1934,58,56-65,Female,NC,30605,Lower-Middle,16549,737,Good,5
+1935,34,26-35,Male,SC,29907,Low,16764,732,Good,2
+1936,21,18-25,Male,FL,38497,Lower-Middle,33413,699,Good,2
+1937,34,26-35,Male,TN,33336,Lower-Middle,48213,692,Good,3
+1938,79,66+,Female,CA,15470,Low,15349,789,Very Good,7
+1939,54,46-55,Female,MD,67890,Upper-Middle,112564,698,Good,2
+1940,33,26-35,Male,WA,68741,Upper-Middle,203172,610,Fair,1
+1941,31,26-35,Male,CA,45025,Lower-Middle,62719,635,Fair,1
+1942,18,18-25,Female,CA,45664,Lower-Middle,0,778,Very Good,4
+1943,20,18-25,Male,CA,30882,Lower-Middle,60484,807,Excellent,3
+1944,20,18-25,Male,TN,36283,Lower-Middle,60989,716,Good,1
+1945,57,56-65,Female,IL,32576,Lower-Middle,0,753,Very Good,4
+1946,54,46-55,Male,CA,26696,Low,0,683,Good,5
+1947,19,18-25,Female,TN,47350,Lower-Middle,47026,680,Good,1
+1948,59,56-65,Male,CA,32678,Lower-Middle,44434,693,Good,3
+1949,19,18-25,Female,CA,64428,Upper-Middle,122968,703,Good,2
+1950,59,56-65,Male,NY,41379,Lower-Middle,95988,681,Good,2
+1951,64,56-65,Female,NC,55418,Lower-Middle,20950,590,Fair,3
+1952,58,56-65,Male,NJ,153691,High,197377,604,Fair,2
+1953,40,36-45,Female,OK,36152,Lower-Middle,81345,716,Good,1
+1954,33,26-35,Male,NC,39975,Lower-Middle,52575,810,Excellent,1
+1955,42,36-45,Male,NE,58223,Lower-Middle,128784,689,Good,2
+1956,34,26-35,Female,WI,45419,Lower-Middle,124370,721,Good,3
+1957,22,18-25,Male,TX,53873,Lower-Middle,76960,742,Very Good,1
+1958,68,66+,Male,NY,38689,Lower-Middle,8942,836,Excellent,5
+1959,25,18-25,Male,CA,64429,Upper-Middle,136163,773,Very Good,2
+1960,21,18-25,Female,IA,47602,Lower-Middle,89319,790,Very Good,2
+1961,99,66+,Female,PA,51110,Lower-Middle,3781,709,Good,8
+1962,42,36-45,Female,ID,28738,Low,48786,600,Fair,1
+1963,52,46-55,Female,FL,48686,Lower-Middle,113137,701,Good,3
+1964,49,46-55,Female,OH,49079,Lower-Middle,6494,683,Good,4
+1965,57,56-65,Male,PA,107075,High,75999,815,Excellent,3
+1966,66,66+,Female,OH,59251,Lower-Middle,29300,679,Good,1
+1967,20,18-25,Female,GA,40572,Lower-Middle,0,732,Good,5
+1968,25,18-25,Female,GA,30004,Lower-Middle,67526,738,Good,3
+1969,18,18-25,Female,MD,47672,Lower-Middle,115371,767,Very Good,4
+1970,29,26-35,Male,TX,37568,Lower-Middle,53323,825,Excellent,1
+1971,35,26-35,Female,VA,45025,Lower-Middle,49878,691,Good,2
+1972,23,18-25,Female,WV,44644,Lower-Middle,83108,716,Good,3
+1973,22,18-25,Male,CA,33140,Lower-Middle,51305,744,Very Good,1
+1974,34,26-35,Male,TX,32126,Lower-Middle,54351,745,Very Good,2
+1975,74,66+,Male,MD,32682,Lower-Middle,21379,650,Fair,3
+1976,60,56-65,Female,AR,34406,Lower-Middle,1636,774,Very Good,3
+1977,48,46-55,Male,TN,48337,Lower-Middle,70603,625,Fair,2
+1978,48,46-55,Female,GA,32522,Lower-Middle,50155,639,Fair,1
+1979,48,46-55,Male,TX,94260,Upper-Middle,39326,815,Excellent,4
+1980,38,36-45,Male,MI,26613,Low,17008,718,Good,2
+1981,50,46-55,Female,MA,39947,Lower-Middle,57346,765,Very Good,2
+1982,56,56-65,Male,FL,36583,Lower-Middle,56310,614,Fair,6
+1983,78,66+,Female,LA,27992,Low,1058,695,Good,6
+1984,19,18-25,Male,OH,28417,Low,25959,684,Good,3
+1985,50,46-55,Male,MS,38458,Lower-Middle,65836,696,Good,3
+1986,69,66+,Female,TN,32952,Lower-Middle,5077,765,Very Good,1
+1987,51,46-55,Female,IL,45570,Lower-Middle,0,712,Good,3
+1988,37,36-45,Male,AZ,42444,Lower-Middle,77510,736,Good,2
+1989,56,56-65,Female,OH,31814,Lower-Middle,43140,693,Good,3
+1990,67,66+,Male,LA,34172,Lower-Middle,71366,811,Excellent,6
+1991,18,18-25,Female,WA,38241,Lower-Middle,81833,596,Fair,1
+1992,31,26-35,Female,CA,26900,Low,74083,758,Very Good,2
+1993,85,66+,Female,SC,35270,Lower-Middle,1769,731,Good,6
+1994,21,18-25,Male,MO,47109,Lower-Middle,76035,844,Excellent,3
+1995,32,26-35,Male,NY,48010,Lower-Middle,87837,703,Good,3
+1996,62,56-65,Female,KY,49378,Lower-Middle,104480,740,Very Good,4
+1997,47,46-55,Female,NJ,30942,Lower-Middle,71066,779,Very Good,3
+1998,66,66+,Male,PA,54654,Lower-Middle,27241,618,Fair,1
+1999,21,18-25,Female,NH,65909,Upper-Middle,181261,673,Good,2
